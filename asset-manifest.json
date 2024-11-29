@@ -1,11 +1,16 @@
 {
   "files": {
-    "main.css": "/portalmaster/static/css/main.5d63f1b0.css",
-    "main.js": "/portalmaster/static/js/main.f0eb659c.js",
+    "main.css": "/portalmaster/static/css/main.2d4e35e4.css",
+    "main.js": "/portalmaster/static/js/main.d638ce96.js",
     "static/js/453.5d2de9de.chunk.js": "/portalmaster/static/js/453.5d2de9de.chunk.js",
     "static/media/hero-img.png": "/portalmaster/static/media/hero-img.4c9fc207e0d9ea3fbd02.png",
+    "static/media/ana.png": "/portalmaster/static/media/ana.d0a1e9aee6c9264ce212.png",
+    "static/media/marko jovanovic.png": "/portalmaster/static/media/marko jovanovic.67c4981a44a427225f05.png",
     "static/media/crm.png": "/portalmaster/static/media/crm.e740bae277fbd2e3c919.png",
+    "static/media/fon-white.svg": "/portalmaster/static/media/fon-white.cdd75b679abb53f46344f0863fda71f7.svg",
+    "static/media/fon-dark.svg": "/portalmaster/static/media/fon-dark.16b774f262eac3f4b53c17fee3b26bd4.svg",
     "static/media/crm-frame.png": "/portalmaster/static/media/crm-frame.7b5681021c3147110608.png",
+    "static/media/ministarstvo.png": "/portalmaster/static/media/ministarstvo.92ef65f4593e3f5b20da.png",
     "static/media/analitika.svg": "/portalmaster/static/media/analitika.3b877bdfe2b83538003d5be917ccf9c7.svg",
     "static/media/analitika-dark.svg": "/portalmaster/static/media/analitika-dark.cad49e9cf413881febe3dc6eb9772b81.svg",
     "static/media/security.svg": "/portalmaster/static/media/security.9544db4be9eca2134a669323658c6f7b.svg",
@@ -15,12 +20,12 @@
     "index.html": "/portalmaster/index.html",
     "static/media/administracija-dark.svg": "/portalmaster/static/media/administracija-dark.1215bfa39315d4d73407d2ecb0e3bb2d.svg",
     "static/media/administracija.svg": "/portalmaster/static/media/administracija.6f3c31b049e580545021fe246a06d524.svg",
-    "main.5d63f1b0.css.map": "/portalmaster/static/css/main.5d63f1b0.css.map",
-    "main.f0eb659c.js.map": "/portalmaster/static/js/main.f0eb659c.js.map",
+    "main.2d4e35e4.css.map": "/portalmaster/static/css/main.2d4e35e4.css.map",
+    "main.d638ce96.js.map": "/portalmaster/static/js/main.d638ce96.js.map",
     "453.5d2de9de.chunk.js.map": "/portalmaster/static/js/453.5d2de9de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d63f1b0.css",
-    "static/js/main.f0eb659c.js"
+    "static/css/main.2d4e35e4.css",
+    "static/js/main.d638ce96.js"
   ]
 }
