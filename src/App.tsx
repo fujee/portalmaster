@@ -3,6 +3,7 @@ import BaseLayout from './layout';
 import HeroSection from './sections/heroSection';
 import AboutSection from './sections/aboutSection';
 import FunctionSection from './sections/functionSection';
+import DemoSection from './sections/demoSection';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HeroSection />
       <AboutSection />
       <FunctionSection />
+      <DemoSection />
     </BaseLayout>
   );
 }

@@ -13,9 +13,9 @@ import { LIGHT_THEME } from "../types/theme";
 
 const navElements = [
     { name: 'home', path: "home", current: false },
-    { name: 'Зашто ми', path: 'about', current: false },
+    { name: 'Предности', path: 'about', current: false },
     { name: 'Функционалности', path: 'function', current: false },
-    { name: 'Резултати', path: 'results', current: false },
+    { name: 'Демо', path: 'demo', current: false },
     // { name: 'О нама', path: 'about', current: false },
     { name: 'Честа питања', path: 'faq', current: false },
 ]
@@ -95,7 +95,7 @@ export default function Navbar() {
                         <div className="flex items-center pr-2 lg:static lg:inset-auto lg:ml-6 lg:pr-0 hidden lg:flex">
                             <ThemeSwitcher changeTextColor={scrolled && theme === LIGHT_THEME} />
                         </div>
-                        <a href="mailto:testmaster@gmail.com"
+                        <a href="mailto:portalmastersolutions@gmail.com"
                             className="block bg-primary text-white rounded-md py-2 px-6 text-base ms-2 border-2 border-primary hover:bg-primary/30 hidden lg:block"
                         >{t("Контактирај нас")}<FontAwesomeIcon icon={faArrowRight} className="ms-2" /></a>
                     </div>
@@ -129,7 +129,7 @@ export default function Navbar() {
                     ))}
                     <div className="pt-5 pt-5">
                         <ThemeSwitcher />
-                        <a href="mailto:testmaster@gmail.com"
+                        <a href="mailto:portalmastersolutions@gmail.com"
                             className="block bg-primary text-white rounded-md py-2 px-6 text-base ms-2 border-2 border-primary hover:bg-primary/30 max-w-sm"
                         >{t("Контактирај нас")}<FontAwesomeIcon icon={faArrowRight} className="ms-2" /></a>
                         <LangChanger />
