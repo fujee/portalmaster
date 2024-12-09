@@ -10,33 +10,13 @@ import ThemeSwitcher from "./themeSwitcher";
 import { Link } from "react-scroll";
 import { useTheme } from "../contexts/themeContext";
 import { LIGHT_THEME } from "../types/theme";
-
-const navElements = [
-    { name: 'home', path: "home", current: false },
-    { name: 'Зашто ми', path: 'about', current: false },
-    { name: 'Функционалности', path: 'function', current: false },
-    { name: 'Резултати', path: 'results', current: false },
-    // { name: 'О нама', path: 'about', current: false },
-    { name: 'Честа питања', path: 'faq', current: false },
-]
+import routes from "../utilities/routes";
 
 
 export default function Navbar() {
-    const [nav, setNav] = useState(navElements)
     const [scrolled, setScrolled] = useState(false)
     const { theme } = useTheme()
     const { t } = useLang()
-
-
-    const onNavClick = (path: string) => {
-        setNav(nav.map((_) => {
-            return {
-                ..._,
-                current: _.path === path
-            }
-        }));
-        console.log(nav)
-    }
 
     //change nav color when scrolling
     const [color, setColor] = useState<boolean>(false)
@@ -66,7 +46,7 @@ export default function Navbar() {
 
 
     return (
-        <Disclosure as="nav" className={`fixed w-[90%] lg:w-full backdrop-blur-xl left-1/2 -translate-x-1/2 bg-navBg shadow-lg border-navBorder z-20 transition duration-300 ease-in-out top-3 border-2 rounded-lg ${color ? 'lg:max-w-none lg:top-0 lg:border-none lg:rounded-none' : 'lg:max-w-screen-2xl lg:top-3 lg:border-2  lg:rounded-lg'}`}>
+        <Disclosure as="nav" className={`fixed w-[90%] lg:w-full backdrop-blur-xl left-1/2 -translate-x-1/2 bg-navBg shadow-lg border-navBorder z-20 transition duration-300 ease-in-out top-3 border-2 rounded-lg ${color ? 'lg:max-w-none lg:top-0 lg:border-none lg:rounded-none' : 'lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl lg:top-3 lg:border-2  lg:rounded-lg'}`}>
             <div className={`mx-auto container py-4 px-8 ${color ? 'lg:px-0' : 'lg:px-8'}`}>
                 <div className="relative flex items-center justify-between">
                     <div className="flex flex-1 items-start lg:items-center justify-start lg:items-stretch lg:justify-start h-full">
@@ -76,7 +56,7 @@ export default function Navbar() {
                             </Link>
                         </div>
                         <div className="hidden lg:ml-auto lg:flex space-x-4 items-center">
-                            {nav.filter(x => x.path !== 'home').map((item) => (
+                            {routes.filter(x => x.path !== 'home').map((item) => (
                                 <Link
                                     to={item.path}
                                     smooth={true}
@@ -113,7 +93,7 @@ export default function Navbar() {
 
             <DisclosurePanel className="lg:hidden">
                 <div className="space-y-1 px-2 pb-3 pt-2">
-                    {nav.filter(x => x.path !== 'home').map((item) => (
+                    {routes.filter(x => x.path !== 'home').map((item) => (
                         <Link
                             to={item.path}
                             smooth={true}
