@@ -1,9 +1,9 @@
 const routes = [
-    { name: 'home', path: "home", current: false },
-    { name: 'Предности', path: 'about', current: false },
-    { name: 'Функционалности', path: 'function', current: false },
-    { name: 'Демо', path: 'demo', current: false },
-    { name: 'Честа питања', path: 'faq', current: false },
+    { name: 'home', path: "home" },
+    { name: 'Предности', path: 'about' },
+    { name: 'Функционалности', path: 'function' },
+    { name: 'Демо', path: 'demo' },
+    { name: 'Честа питања', path: 'faq' },
 ]
 
 export default routes
