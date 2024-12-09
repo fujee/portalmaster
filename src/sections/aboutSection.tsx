@@ -23,8 +23,8 @@ export default function AboutSection() {
                 <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-20 mt-10 lg:after:content-[''] lg:after:w-[2px] lg:after:h-full lg:after:bg-black/20 lg:after:dark:bg-primary/20 lg:after:block lg:after:absolute lg:after:left-1/2 lg:after:-translate-x-1/2 lg:before:content-[''] lg:before:w-full lg:before:h-[2px] lg:before:absolute lg:before:bg-black/20 lg:before:dark:bg-primary/20 lg:before:top-1/2 lg:before:-translate-y-1/2">
                     <div className="">
                         <div className="flex justify-start items-center">
-                            <img src={theme === DARK_THEME ? kvalitetDark : kvalitet} alt={t('Скалабилност и универзална примена')} className="me-4" />
-                            <h3 className="text-2xl font-semibold text-secondary dark:text-white">{t('Скалабилност и универзална примена')}</h3>
+                            <img src={theme === DARK_THEME ? kvalitetDark : kvalitet} alt={t('Универзална примена')} className="me-4" />
+                            <h3 className="text-2xl font-semibold text-secondary dark:text-white">{t('Универзална примена')}</h3>
                         </div>
                         <div className="mt-5">
                             <h5 className="text-primary font-semibold">{t("Једна платформа за више портала")}</h5>
@@ -34,46 +34,10 @@ export default function AboutSection() {
                             <h5 className="text-primary font-semibold">{t("Хостинг и домени као део решења")}</h5>
                             <p className="text-justify text-black/80 dark:text-white/80">{t('У оквиру Портал Мастер решења, укључени су и трошкови хостинга за све портале, чиме се елиминишу додатни оперативни издаци за организацију. Поред тога, корисницима који не желе да користе сопствене домене, нудимо могућност креирања поддомена за сваки специфични портал.')}</p>
                         </div>
-                        <div className="mt-5">
+                        {/* <div className="mt-5">
                             <h5 className="text-primary font-semibold">{t("Флексибилне могућности инфраструктуре")}</h5>
                             <p className="text-justify text-black/80 dark:text-white/80">{t('Платформа може бити хостована у cloud окружењима као што су Microsoft Azure или Oracle Cloud, али такође подржава и on-premise инсталације у складу са захтевима корисника, посебно у случајевима где је то неопходно због регулатива или посебних политика компаније.')}</p>
-                        </div>
-                    </div>
-                    <div className="">
-                        <div className="flex justify-start items-center">
-                            <img src={theme === DARK_THEME ? securityDark : security} alt={t('Сигурност')} className="me-4" />
-                            <h3 className="text-2xl font-semibold text-secondary dark:text-white">{t('Сигурност на првом месту')}</h3>
-                        </div>
-                        <div className="mt-5">
-                            <h5 className="text-primary font-semibold">{t("Централизована контрола")}</h5>
-                            <p className="text-justify text-black/80 dark:text-white/80">{t('Сви налози, подаци и активности су под строгом контролом, чиме се обезбеђује висок ниво сигурности у раду.')}</p>
-                        </div>
-                        <div className="mt-5">
-                            <h5 className="text-primary font-semibold">{t("Интеграција са постојећим системима")}</h5>
-                            <p className="text-justify text-black/80 dark:text-white/80">{t('Платформа се може интегрисати са постојећим сервисима и инфраструктуром, чиме се обезбеђује заштита података и минимизирају ризици од неовлашћеног приступа.')}</p>
-                        </div>
-                        <div className="mt-5">
-                            <h5 className="text-primary font-semibold">{t("Непрекидно унапређивање сигурности")}</h5>
-                            <p className="text-justify text-black/80 dark:text-white/80">{t('Портали захтевају редовно ажурирање библиотека, усклађивање са најновијим стандардима и непрекидно побољшање нивоа заштите. Корисници платформе Портал Мастер не морају да размишљају о овоме, јер наш тим стручњака централизовано одржава све портале, обезбеђујући највиши ниво сигурности и стабилности.')}</p>
-                        </div>
-                    </div>
-                    <div className="">
-                        <div className="flex justify-start items-center">
-                            <img src={theme === DARK_THEME ? administracijaDark : administracija} alt={t('Јединствена администрација')} className="me-4" />
-                            <h3 className="text-2xl font-semibold text-secondary dark:text-white">{t('Јединствена администрација')}</h3>
-                        </div>
-                        <div className="mt-5">
-                            <h5 className="text-primary font-semibold">{t("Централизовано управљање садржајем")}</h5>
-                            <p className="text-justify text-black/80 dark:text-white/80">{t('Управљање садржајем, структурама и корисничким правима кроз један интерфејс, уз могућност да сваки портал буде прилагођен специфичним потребама корисника.')}</p>
-                        </div>
-                        <div className="mt-5">
-                            <h5 className="text-primary font-semibold">{t("Аутоматска ажурирања")}</h5>
-                            <p className="text-justify text-black/80 dark:text-white/80">{t('Сви портали се аутоматски ажурирају најновијим функционалностима, без потребе за додатним техничким прилагођавањима или интервенцијама.')}</p>
-                        </div>
-                        <div className="mt-5">
-                            <h5 className="text-primary font-semibold">{t("Лако управљање страницама и компонентама")}</h5>
-                            <p className="text-justify text-black/80 dark:text-white/80">{t('Администратори могу додавати странице, дефинисати меније и уграђивати компоненте, попут вести, обавештења, календара или формулара, без потребе за програмским знањем.')}</p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="">
                         <div className="flex justify-start items-center">
@@ -95,8 +59,45 @@ export default function AboutSection() {
                     </div>
                     <div className="">
                         <div className="flex justify-start items-center">
-                            <img src={theme === DARK_THEME ? analitikaDark : analitika} alt={t('Аналитичка предност')} className="me-4" />
-                            <h3 className="text-2xl font-semibold text-secondary dark:text-white">{t('Аналитичка предност')}</h3>
+                            <img src={theme === DARK_THEME ? securityDark : security} alt={t('Сигурност')} className="me-4" />
+                            <h3 className="text-2xl font-semibold text-secondary dark:text-white">{t('Сигурност на првом месту')}</h3>
+                        </div>
+                        <div className="mt-5">
+                            <h5 className="text-primary font-semibold">{t("Централизовано управљање налозима")}</h5>
+                            <p className="text-justify text-black/80 dark:text-white/80">{t('Сви налози, подаци и активности су под строгом контролом, чиме се обезбеђује висок ниво сигурности у раду.')}</p>
+                        </div>
+                        <div className="mt-5">
+                            <h5 className="text-primary font-semibold">{t("Интеграција са постојећим системима")}</h5>
+                            <p className="text-justify text-black/80 dark:text-white/80">{t('Платформа се може интегрисати са постојећим сервисима и инфраструктуром, чиме се обезбеђује заштита података и минимизирају ризици од неовлашћеног приступа.')}</p>
+                        </div>
+                        <div className="mt-5">
+                            <h5 className="text-primary font-semibold">{t("Непрекидно унапређивање сигурности")}</h5>
+                            <p className="text-justify text-black/80 dark:text-white/80">{t('Корисници платформе Портал Мастер не морају да брину о редовном ажурирању библиотека, усклађивању са најновијим стандардима или континуираном побољшању нивоа заштите. Наш тим стручњака централизовано одржава све портале, обезбеђујући највиши ниво сигурности и стабилности.')}</p>
+                        </div>
+                    </div>
+                    <div className="">
+                        <div className="flex justify-start items-center">
+                            <img src={theme === DARK_THEME ? administracijaDark : administracija} alt={t('Јединствена администрација')} className="me-4" />
+                            <h3 className="text-2xl font-semibold text-secondary dark:text-white">{t('Јединствена администрација')}</h3>
+                        </div>
+                        <div className="mt-5">
+                            <h5 className="text-primary font-semibold">{t("Централизовано управљање садржајем")}</h5>
+                            <p className="text-justify text-black/80 dark:text-white/80">{t('Управљање садржајем, структурама и корисничким правима кроз један интерфејс, уз могућност да сваки портал буде прилагођен специфичним потребама корисника.')}</p>
+                        </div>
+                        <div className="mt-5">
+                            <h5 className="text-primary font-semibold">{t("Аутоматско ажурирање")}</h5>
+                            <p className="text-justify text-black/80 dark:text-white/80">{t('Сви портали се аутоматски ажурирају најновијим функционалностима, без потребе за додатним техничким прилагођавањима или интервенцијама.')}</p>
+                        </div>
+                        <div className="mt-5">
+                            <h5 className="text-primary font-semibold">{t("Лако управљање страницама и компонентама")}</h5>
+                            <p className="text-justify text-black/80 dark:text-white/80">{t('Администратори могу додавати странице, дефинисати меније и уграђивати компоненте, попут вести, обавештења, календара или формулара, без потребе за техничким знањем.')}</p>
+                        </div>
+                    </div>
+                    
+                    <div className="">
+                        <div className="flex justify-start items-center">
+                            <img src={theme === DARK_THEME ? analitikaDark : analitika} alt={t('Аналитика за сваку потребу')} className="me-4" />
+                            <h3 className="text-2xl font-semibold text-secondary dark:text-white">{t('Аналитика за сваку потребу')}</h3>
                         </div>
                         <div className="mt-5">
                             <h5 className="text-primary font-semibold">{t("Праћење активности и корисничке интеракције")}</h5>

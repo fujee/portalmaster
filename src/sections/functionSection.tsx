@@ -34,12 +34,12 @@ export default function FunctionSection() {
                     <div className="border-2 rounded-xl h-[440px] border-navBorder dark:border-navBorderDark p-10 lg:col-span-4 lg:row-span-1 bg-pureWhite bg-custom_bg2 dark:bg-pureBlack dark:bg-custom_bg2_dark">
                         <div>
                             <h5 className="text-2xl text-black font-bold dark:text-white">{t("Централизовано одржавање садржаја")}</h5>
-                            <p className="text-justify mt-3 text-lg text-black/80 dark:text-white/80">{t('Глобални садржај се ажурира са једног места и аутоматски се примењује на свим порталима, уз могућност локалних прилагођавања.')}</p>
+                            <p className="text-justify mt-3 text-lg text-black/80 dark:text-white/80">{t('Заједнички садржај се ажурира на једном месту и аутоматски се примењује на свим порталима, уз могућност појединачног прилагођавања.')}</p>
                         </div>
                     </div>
                     <div className="border-2 rounded-xl h-[440px] border-navBorder dark:border-navBorderDark p-10 lg:col-span-4 lg:row-span-1 bg-pureWhite bg-custom_bg3 dark:bg-pureBlack dark:bg-custom_bg3_dark">
                         <div>
-                            <h5 className="text-2xl text-black font-bold dark:text-white">{t("Једноставно управљање корисницима")}</h5>
+                            <h5 className="text-2xl text-black font-bold dark:text-white">{t("Једноставно управљање")}</h5>
                             <p className="text-justify mt-3 text-lg text-black/80 dark:text-white/80">{t('Додавање, уређивање и управљање корисничким налозима, са подршком за интеграцију са екстерним системима за идентификацију.')}</p>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ export default function FunctionSection() {
                     <div className="border-2 rounded-xl h-[440px] border-navBorder dark:border-navBorderDark p-10 lg:col-span-5 lg:row-span-1 bg-pureWhite bg-custom_bg4 dark:bg-pureBlack dark:bg-custom_bg4_dark">
                         <div>
                             <h5 className="text-2xl text-black font-bold dark:text-white">{t("Интуитивне компоненте")}</h5>
-                            <p className="text-justify mt-3 text-lg text-black/80 dark:text-white/80">{t('Креирање страница са новостима, галеријама слика, документима и многих других, без потребе за програмским знањем.')}</p>
+                            <p className="text-justify mt-3 text-lg text-black/80 dark:text-white/80">{t('Креирање страница са новостима, галеријама слика, документима и многих других, без потребе за техничким знањем.')}</p>
                         </div>
                     </div>
                     <div className="border-2 rounded-xl h-[440px] border-navBorder dark:border-navBorderDark p-10 lg:col-span-4 lg:row-span-1 bg-custom_bg5 dark:bg-pureBlack dark:bg-custom_bg5_dark">
