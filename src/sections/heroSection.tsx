@@ -14,10 +14,6 @@ export default function HeroSection() {
                 <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-screen-md'>
                 <div className='block border-2 border-primary bg-white/10 z-10 py-2 px-4 rounded-md text-lg text-white w-fit mx-auto'>
                     {t("Добродошли на Портал Мастер")}
-                    <br />
-                    <span className='block text-center text-sm italic'>
-                        {t("Портал на клик од Вас!")}
-                    </span>
                 </div>
 
                     <h1 className='text-4xl text-white text-center mt-8 font-bold'>{t('Ваше решење за дигитализацију и централизовано управљање порталима')}</h1>

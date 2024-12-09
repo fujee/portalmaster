@@ -21,7 +21,7 @@ export default function Footer() {
                 <h3 className="text-3xl font-bold text-white text-center lg:text-start">{t('Повежите се са нама')}</h3>
                 <div className="lg:flex justify-between items-center mt-5">
                     <div className="max-w-screen-md text-center lg:text-start">
-                        <h6 className="text-white text-xl">{t('Партнер на вашем путу ка дигиталној трансформацији образовања.')}</h6>
+                        <h6 className="text-white text-xl">{t('Партнер на вашем путу ка дигиталној трансформацији будућности.')}</h6>
                         <p className="text-white/80 mt-2">{t('Контактирајте нас данас како бисте добили детаљније информације или договорили бесплатну демонстрацију нашег система.')}</p>
                     </div>
                     <div className="mt-10 lg:mt-0">
@@ -35,7 +35,7 @@ export default function Footer() {
                 <div className="w-full grid grid-cols-1 lg:grid-cols-3 items-center">
                     <div className="mb-10 lg:mb-0">
                         <img src={logo} alt={t('Портал Мастер Лого')} className="mx-auto lg:mx-0" />
-                        <p className="text-white/80 mt-7 text-center lg:text-start">{t('Права платформа за модернизацију образовних портала – сигурна, ефикасна и прилагодљива.')}</p>
+                        <p className="text-white/80 mt-7 text-center lg:text-start">{t('Портал на клик од вас – лако, безбедно и ефикасно.')}</p>
                     </div>
                     <div className="text-center mb-10 lg:mb-0">
                         {routes.filter(x => x.path !== 'home').map((item) => (
