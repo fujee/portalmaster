@@ -15,7 +15,7 @@ import linkedin from "../media/contact/linkedin.svg";
 export default function Footer() {
     const { t } = useLang()
 
-    return <div className="bg-black dark:bg-pureBlack py-20">
+    return <div className="bg-black dark:bg-pureBlack py-20 pb-10">
         <div className="container mx-auto">
             <div className="px-10">
                 <h3 className="text-3xl font-bold text-white text-center lg:text-start">{t('Повежите се са нама')}</h3>
@@ -51,17 +51,27 @@ export default function Footer() {
                             </Link>
                         ))}
                     </div>
-                    <div>
-                        <div className="flex justify-start gap-5">
-                            <a href="https://fon.bg.ac.rs" target="_blank"><img src={facebook}></img></a>
-                            <a href="https://fon.bg.ac.rs" target="_blank"><img src={linkedin}></img></a>
-                            <a href="https://fon.bg.ac.rs" target="_blank"><img src={instagram}></img></a>
+                    <div className="lg:ms-auto">
+                        <div className="flex justify-center lg:justify-start gap-5">
+                            <a href="https://fon.bg.ac.rs" target="_blank" rel="noreferrer"><img src={facebook} alt="facebook icon" /></a>
+                            <a href="https://fon.bg.ac.rs" target="_blank" rel="noreferrer"><img src={linkedin} alt="linkedin icon" /></a>
+                            <a href="https://fon.bg.ac.rs" target="_blank" rel="noreferrer"><img src={instagram} alt="instagram icon" /></a>
                         </div>
-                        <div className="mt-10">
+                        <div className="mt-10 text-center lg:text-start">
                             <p className="text-white">{t("Телефон")}</p>
-                            <p className="text-white/80"><a href="tel:+381645845484" className="text-white/80 hover:text-primary">+381645845484</a></p>
+                            <p className="text-white/80 mb-2"><a href="tel:+381645845484" className="text-white/80 hover:text-primary">+381645845484</a></p>
+                            <p className="text-white mt-2">{t("Електронска пошта")}</p>
+                            <p className="text-white/80"><a href="mailto:portalmastersolutions@gmail.com" className="text-white/80 hover:text-primary">portalmastersolutions@gmail.com</a></p>
                         </div>
                     </div>
+                </div>
+                <div className="pt-20 text-center">
+                    <p className="text-white">&copy; Copyright 2024, {t('Сва права задржана')} -
+                        <Link smooth={true}
+                            spy={true}
+                            to={"home"}
+                            duration={500}
+                            className="text-primary underline hover:text-primary/50 cursor-pointer"> Portal Master Solutions</Link></p>
                 </div>
             </div>
         </div>
