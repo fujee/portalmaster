@@ -5,6 +5,10 @@ import logo from "../media/logo.png"
 import routes from "../utilities/routes"
 import { Link } from "react-scroll"
 
+import facebook from "../media/contact/facebook.svg";
+import instagram from "../media/contact/instagram.svg";
+import linkedin from "../media/contact/linkedin.svg";
+
 
 
 
@@ -21,7 +25,7 @@ export default function Footer() {
                         <p className="text-white/80 mt-2">{t('Контактирајте нас данас како бисте добили детаљније информације или договорили бесплатну демонстрацију нашег система.')}</p>
                     </div>
                     <div className="mt-10 lg:mt-0">
-                        <a href="mailto:testmaster@gmail.com"
+                        <a href="mailto:portalmastersolutions@gmail.com"
                             className="block bg-primary text-white rounded-md py-2 px-6 text-base border-2 border-primary hover:bg-primary/30 max-w-sm mx-auto lg:mx-none"
                         >{t("Контактирај нас")}<FontAwesomeIcon icon={faArrowRight} className="ms-2" /></a>
                     </div>
@@ -48,8 +52,14 @@ export default function Footer() {
                         ))}
                     </div>
                     <div>
-                        <div className="flex justify-start gap-10">
-                            <a href="https://fon.bg.ac.rs" target="_blank"><img></img></a>
+                        <div className="flex justify-start gap-5">
+                            <a href="https://fon.bg.ac.rs" target="_blank"><img src={facebook}></img></a>
+                            <a href="https://fon.bg.ac.rs" target="_blank"><img src={linkedin}></img></a>
+                            <a href="https://fon.bg.ac.rs" target="_blank"><img src={instagram}></img></a>
+                        </div>
+                        <div className="mt-10">
+                            <p className="text-white">{t("Телефон")}</p>
+                            <p className="text-white/80"><a href="tel:+381645845484" className="text-white/80 hover:text-primary">+381645845484</a></p>
                         </div>
                     </div>
                 </div>
