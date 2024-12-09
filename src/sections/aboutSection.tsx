@@ -17,10 +17,10 @@ export default function AboutSection() {
 
     return <Element name='about'>
         <div id="about" className="bg-transparent pt-24 pb-24">
-            <div className="container mx-auto">
+            <div className="container mx-auto px-5 lg:px-0">
                 <p className="text-primary font-semibold text-2xl relative after:content-[''] after:absolute after:block after:h-[4px] after:w-[100px] after:-bottom-4 after:left-0 after:bg-primary after:rounded-xl">{t('Зашто')} <em>Портал Мастер</em>?</p>
                 <h2 className="mt-10 text-4xl font-bold text-black dark:text-white">{t('Технологија која обликује дигиталну будућност')}</h2>
-                <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-20 mt-10 lg:after:content-[''] lg:after:w-[2px] lg:after:h-full lg:after:bg-black/20 lg:after:dark:bg-primary/20 lg:after:block lg:after:absolute lg:after:left-1/2 lg:after:-translate-x-1/2 lg:before:content-[''] lg:before:w-full lg:before:h-[2px] lg:before:absolute lg:before:bg-black/20 lg:before:dark:bg-primary/20 lg:before:top-1/2 lg:before:-translate-y-1/2">
+                <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-20 mt-10">
                     <div className="">
                         <div className="flex justify-start items-center">
                             <img src={theme === DARK_THEME ? kvalitetDark : kvalitet} alt={t('Скалабилност и универзална примена')} className="me-4" />
@@ -121,7 +121,7 @@ export default function AboutSection() {
                             <p className="text-justify text-black/80 dark:text-white/80">{t('Подршка за вишејезичност, алати за аутоматско прилагођавање садржаја и опције за бољу читљивост, попут инверзних тема, осигуравају да портали буду доступни свима.')}</p>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div></Element>

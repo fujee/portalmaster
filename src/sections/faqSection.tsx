@@ -11,7 +11,7 @@ export default function FaqSection() {
     return (
         <Element name="faq">
             <div className="py-24 bg-pureWhite dark:bg-faqBlack">
-                <div className="container mx-auto">
+                <div className="container mx-auto px-5 lg:px-0">
                     <p className="text-primary text-center font-semibold text-2xl relative after:content-[''] after:absolute after:block after:h-[4px] after:w-[100px] after:-bottom-4 after:left-1/2 after:-translate-x-1/2 after:bg-primary after:rounded-xl">{t('Често постављена питања')}</p>
                     <h2 className="mt-10 text-4xl font-bold text-black dark:text-white text-center">{t('Све што треба да знате о порталима...')}</h2>
                     <div className="mt-10">

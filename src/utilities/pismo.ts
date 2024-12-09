@@ -1,21 +1,42 @@
+import englishTranslations from '../lang/translations-en.json'
+const translations: { [key: string]: string } = englishTranslations;
+
+
 export const cirilica = "cir";
 export const latinica = "lat";
+export const english = "en";
 
-export const all = [cirilica, latinica] as const;
+export const all = [cirilica, latinica, english] as const;
 
 export type Pismo = typeof all[number];
 
-export function translate(pismo: Pismo, textCirilica: string): string {
+export function translate(pismo: Pismo, textCirilica: string, key?: string): string {
+    if (pismo === english) {
+        if (key && key in translations && translations[key]) {
+            return translations[key]
+        }
+
+        return textCirilica;
+    }
+
     return pismo === cirilica ? textCirilica : cyrillicToLatin(textCirilica);
 }
 
 // export const staticParams = all.map((_) => ({ pismo: _ }));
 
 export function getLang(pismo: Pismo): string {
+    if (pismo === english) {
+        return "en-US";
+    }
+
     return pismo === cirilica ? "sr-Cyrl-RS" : "sr-Latn-RS";
 }
 
 export function getLabel(pismo: Pismo): string {
+    if (pismo === english) {
+        return "ENG";
+    }
+
     return pismo === cirilica ? "ЋИР" : "LAT";
 }
 

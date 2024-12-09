@@ -4,7 +4,7 @@ import { cirilica, Pismo, translate } from "../../utilities/pismo";
 interface LangContextType {
     lang: Pismo;
     setLang: React.Dispatch<React.SetStateAction<Pismo>>;
-    t: (text: string) => string;
+    t: (text: string, key?: string) => string;
 }
 
 const LangContext = React.createContext<LangContextType | undefined>(undefined);
@@ -13,7 +13,7 @@ const LangContext = React.createContext<LangContextType | undefined>(undefined);
 function LanguageProvider({ children }: { children: React.ReactNode }) {
     const [lang, setLang] = React.useState<Pismo>(cirilica);
 
-    const t = (text: string) => translate(lang, text);
+    const t = (text: string, key?: string) => translate(lang, text, key);
 
 
     useEffect(() => {
