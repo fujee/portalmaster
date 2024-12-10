@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLang } from "../contexts/langContext";
-import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
+import { Disclosure, DisclosureButton, DisclosurePanel, useClose } from "@headlessui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import LangChanger from "./langChanger";
@@ -17,6 +17,8 @@ export default function Navbar() {
     const [scrolled, setScrolled] = useState(false)
     const { theme } = useTheme()
     const { t } = useLang()
+    const close = useClose();
+
 
     //change nav color when scrolling
     const [color, setColor] = useState<boolean>(false)
@@ -44,6 +46,10 @@ export default function Navbar() {
         }
     }
 
+
+    const handleClose = () => {
+        close();
+    }
 
     return (
         <Disclosure as="nav" className={`fixed w-[90%] lg:w-full backdrop-blur-xl left-1/2 -translate-x-1/2 bg-navBg shadow-lg border-navBorder z-20 transition duration-300 ease-in-out top-3 border-2 rounded-lg ${color ? 'lg:max-w-none lg:top-0 lg:border-none lg:rounded-none' : 'lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl lg:top-3 lg:border-2  lg:rounded-lg'}`}>
@@ -75,7 +81,7 @@ export default function Navbar() {
                         <div className="flex items-center pr-2 lg:static lg:inset-auto lg:ml-6 lg:pr-0 hidden lg:flex">
                             <ThemeSwitcher changeTextColor={scrolled && theme === LIGHT_THEME} />
                         </div>
-                        <a href="mailto:portalmastersolutions@gmail.com"
+                        <a href="mailto:contact@portalmastersolutions.com"
                             className="block bg-primary text-white rounded-md py-2 px-6 text-base ms-2 border-2 border-primary hover:bg-primary/30 hidden lg:block"
                         >{t("Контактирај нас")}<FontAwesomeIcon icon={faArrowRight} className="ms-2" /></a>
                     </div>
@@ -102,6 +108,7 @@ export default function Navbar() {
                             duration={500}
                             activeClass={'active'}
                             onSetActive={handleSetActive}
+                            onClick={handleClose}
                             className={`hover:bg-primary/20 hover:text-white block rounded-md px-3 py-2 text-base font-medium cursor-pointer [&.active]:bg-primary/80 [&.active]:text-white ${scrolled && theme === LIGHT_THEME ? 'text-secondary' : 'text-white'}`}
                         >
                             {t(item.name)}
@@ -109,7 +116,7 @@ export default function Navbar() {
                     ))}
                     <div className="pt-5 pt-5">
                         <ThemeSwitcher />
-                        <a href="mailto:portalmastersolutions@gmail.com"
+                        <a href="mailto:contact@portalmastersolutions.com"
                             className="block bg-primary text-white rounded-md py-2 px-6 text-base ms-2 border-2 border-primary hover:bg-primary/30 max-w-sm"
                         >{t("Контактирај нас")}<FontAwesomeIcon icon={faArrowRight} className="ms-2" /></a>
                         <LangChanger />

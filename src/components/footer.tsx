@@ -25,7 +25,7 @@ export default function Footer() {
                         <p className="text-white/80 mt-2">{t('Контактирајте нас данас како бисте добили детаљније информације или договорили бесплатну демонстрацију нашег система.')}</p>
                     </div>
                     <div className="mt-10 lg:mt-0">
-                        <a href="mailto:portalmastersolutions@gmail.com"
+                        <a href="mailto:contact@portalmastersolutions.com"
                             className="block bg-primary text-white rounded-md py-2 px-6 text-base border-2 border-primary hover:bg-primary/30 max-w-sm mx-auto lg:mx-none"
                         >{t("Контактирај нас")}<FontAwesomeIcon icon={faArrowRight} className="ms-2" /></a>
                     </div>
@@ -61,7 +61,7 @@ export default function Footer() {
                             <p className="text-white">{t("Телефон")}</p>
                             <p className="text-white/80 mb-2"><a href="tel:+381645845484" className="text-white/80 hover:text-primary">+381645845484</a></p>
                             <p className="text-white mt-2">{t("Електронска пошта")}</p>
-                            <p className="text-white/80"><a href="mailto:portalmastersolutions@gmail.com" className="text-white/80 hover:text-primary">portalmastersolutions@gmail.com</a></p>
+                            <p className="text-white/80"><a href="mailto:contact@portalmastersolutions.com" className="text-white/80 hover:text-primary">contact@portalmastersolutions.com</a></p>
                         </div>
                     </div>
                 </div>

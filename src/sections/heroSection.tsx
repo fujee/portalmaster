@@ -11,15 +11,15 @@ export default function HeroSection() {
         <Element name='home'>
             <div className="min-h-screen relative">
                 <img src={bgImg} alt='Hero Img' className='absolute w-full h-full object-cover z-0'></img>
-                <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-screen-md'>
-                    <div className='block border-2 border-primary bg-white/10 z-10 py-2 px-4 rounded-md text-lg text-white w-fit mx-auto'>
+                <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full px-5 lg:px-0 lg:max-w-screen-md'>
+                    <div className='block border-2 border-primary bg-white/10 z-10 py-2 px-4 rounded-md text-sm lg:text-lg mt-18 lg:mt-0 text-white w-fit mx-auto'>
                         {t("Добродошли на Портал Мастер", "welcome")}
                     </div>
 
-                    <h1 className="text-4xl text-white text-center mt-8 font-bold uppercase">
-                        {t('ПОРТАЛ НА КЛИК ОД ВАС')}<br />
-                        <span className="text-2xl font-normal uppercase">{t('ЛАКО, БЕЗБЕДНО И ЕФИКАСНО')}</span>
+                    <h1 className="text-3xl lg:text-4xl text-white text-center mt-8 font-bold uppercase">
+                        {t('ПОРТАЛ НА КЛИК ОД ВАС')}
                     </h1>
+                    <h2 className='text-lg lg:text-2xl text-white text-center'>{t('ЛАКО, БЕЗБЕДНО И ЕФИКАСНО')}</h2>
 
 
                     <p className='text-white text-center mt-10'>{t("Портал Мастер је савремено софтверско решење које вам омогућава да, без техничког предзнања, направите и једноставно управљате свим веб порталима ваше организације.")}</p>

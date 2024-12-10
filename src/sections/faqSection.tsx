@@ -158,7 +158,7 @@ export default function FaqSection() {
                             </DisclosureButton>
                             <div className="overflow-hidden py-2">
                                 <DisclosurePanel transition className="origin-top transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0">
-                                    <p className="mt-4 text-black/80 dark:text-white/80">{t('Контактирајте нас')} <a href="mailto:portalmastersolutions@gmail.com" className="text-primary hover:text-secondary underline dark:hover:text-pureWhite">portalmastersolutions@gmail.com</a></p>
+                                    <p className="mt-4 text-black/80 dark:text-white/80">{t('Контактирајте нас')} <a href="mailto:contact@portalmastersolutions.com" className="text-primary hover:text-secondary underline dark:hover:text-pureWhite">contact@portalmastersolutions.com</a></p>
                                 </DisclosurePanel>
                             </div>
                         </Disclosure>
