@@ -13,9 +13,9 @@
 body {
   font-family: "Exo 2", sans-serif;
   background-color: #f6f6f6;
-  background-image: url("./media/pattern.png");
-  background-position: center;
-  background-size: contain;
+  background-image: url("./media/blur_bubbles.png");
+  background-position: center 300px;
+  background-size: cover auto;
   background-repeat: repeat-y;
 }
 

@@ -13,7 +13,7 @@ function App() {
       <AboutSection />
       <FunctionSection />
       {/* <DemoSection /> */}
-      <ToldSection />
+      {/* <ToldSection /> */}
       <FaqSection />
     </BaseLayout>
   );

@@ -46,7 +46,7 @@ export default function Navbar() {
 
     return (
         <Disclosure as="nav" className={`fixed w-[90%] lg:w-full backdrop-blur-xl left-1/2 -translate-x-1/2 bg-navBg shadow-lg border-navBorder z-20 transition duration-300 ease-in-out top-3 border-2 rounded-lg ${color ? 'lg:max-w-none lg:top-0 lg:border-none lg:rounded-none' : 'lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl lg:top-3 lg:border-2  lg:rounded-lg'}`}>
-            <div className={`mx-auto container py-4 px-8 ${color ? 'lg:px-0' : 'lg:px-8'}`}>
+            <div className={`mx-auto container py-4 px-4 ${color ? 'lg:px-0' : 'lg:px-8'}`}>
                 <div className="relative flex items-center justify-between">
                     <div className="flex flex-1 items-start lg:items-center justify-start lg:items-stretch lg:justify-start h-full">
                         <div className="flex flex-shrink-0 items-start lg:items-center justify-start">
@@ -75,7 +75,7 @@ export default function Navbar() {
                             <ThemeSwitcher changeTextColor={scrolled && theme === LIGHT_THEME} />
                         </div>
                         <a href="mailto:contact@portalmastersolutions.com"
-                            className="block bg-primary text-white rounded-md py-2 px-6 text-base ms-2 border-2 border-primary hover:bg-primary/30 hidden xl:block"
+                            className="block bg-primary text-white rounded-md py-2 px-4 text-base ms-2 border-2 border-primary hover:bg-primary/30 hidden xl:block"
                         >{t("Контактирај нас")}<FontAwesomeIcon icon={faArrowRight} className="ms-2" /></a>
                     </div>
                     <div className="absolute inset-y-0 right-0 flex items-center lg:hidden">

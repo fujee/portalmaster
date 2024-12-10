@@ -25,8 +25,7 @@ module.exports = {
         `,
         custom_bg1_dark: `
           radial-gradient(77.97% 63.97% at 0% -2.39%, rgba(60, 72, 132, 0.24) 0%, rgba(19, 19, 19, 0.24) 100%), 
-          radial-gradient(112.56% 95.07% at 120.03% 129.89%, rgba(255, 113, 37, 0.24) 0%, rgba(19, 19, 19, 0.24) 100%),
-          url(/src/media/functions/feature_box_1.png)
+          radial-gradient(112.56% 95.07% at 120.03% 129.89%, rgba(255, 113, 37, 0.24) 0%, rgba(19, 19, 19, 0.24) 100%)
         `,
         custom_bg2: `radial-gradient(62.14% 54.4% at -3.38% -2.73%, rgba(255, 113, 37, 0.24) 0%, rgba(255, 255, 255, 0.24) 100%)`,
         custom_bg2_dark: `radial-gradient(62.14% 54.4% at -3.38% -2.73%, rgba(255, 113, 37, 0.24) 0%, rgba(19, 19, 19, 0.24) 100%)`,
@@ -75,10 +74,15 @@ module.exports = {
             borderColor: "white",
           },
         },
+        wiggle: {
+          "0%, 100%": { transform: "rotate(-3deg)" },
+          "50%": { transform: "rotate(3deg)" },
+        },
       },
       animation: {
         "custom-bounce": "customBounce 1.2s linear infinite",
         typing: "typing 2s steps(20) infinite alternate, blink .7s infinite",
+        wiggle: "wiggle .5s ease-in-out infinite",
       },
     },
   },

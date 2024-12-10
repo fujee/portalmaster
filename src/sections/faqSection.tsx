@@ -15,7 +15,7 @@ export default function FaqSection() {
                     <p className="text-primary text-center font-semibold text-xl lg:text-2xl relative after:content-[''] after:absolute after:block after:h-[4px] after:w-[100px] after:-bottom-4 after:left-1/2 after:-translate-x-1/2 after:bg-primary after:rounded-xl">{t('Често постављена питања')}</p>
                     <h2 className="mt-10 text-2xl lg:text-4xl font-bold text-black dark:text-white text-center">{t('Све што треба да знате о порталима...')}</h2>
                     <div className="mt-10">
-                        <Disclosure as='div' className="py-5 border-b-2 border-secondary dark:border-white/80">
+                        <Disclosure as='div' className="py-5 border-b-2 border-secondary/20 dark:border-white/20">
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
@@ -29,7 +29,7 @@ export default function FaqSection() {
                                 </DisclosurePanel>
                             </div>
                         </Disclosure>
-                        <Disclosure as='div' className="py-5 border-b-2 border-secondary dark:border-white/80">
+                        <Disclosure as='div' className="py-5 border-b-2 border-secondary/20 dark:border-white/20">
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
@@ -43,7 +43,7 @@ export default function FaqSection() {
                                 </DisclosurePanel>
                             </div>
                         </Disclosure>
-                        <Disclosure as='div' className="py-5 border-b-2 border-secondary dark:border-white/80">
+                        <Disclosure as='div' className="py-5 border-b-2 border-secondary/20 dark:border-white/20">
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
@@ -57,7 +57,7 @@ export default function FaqSection() {
                                 </DisclosurePanel>
                             </div>
                         </Disclosure>
-                        <Disclosure as='div' className="py-5 border-b-2 border-secondary dark:border-white/80">
+                        <Disclosure as='div' className="py-5 border-b-2 border-secondary/20 dark:border-white/20">
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
@@ -72,7 +72,7 @@ export default function FaqSection() {
                             </div>
                         </Disclosure>
 
-                        <Disclosure as='div' className="py-5 border-b-2 border-secondary dark:border-white/80">
+                        <Disclosure as='div' className="py-5 border-b-2 border-secondary/20 dark:border-white/20">
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
@@ -87,7 +87,7 @@ export default function FaqSection() {
                             </div>
                         </Disclosure>
 
-                        <Disclosure as='div' className="py-5 border-b-2 border-secondary dark:border-white/80">
+                        <Disclosure as='div' className="py-5 border-b-2 border-secondary/20 dark:border-white/20">
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
@@ -102,7 +102,7 @@ export default function FaqSection() {
                             </div>
                         </Disclosure>
 
-                        <Disclosure as='div' className="py-5 border-b-2 border-secondary dark:border-white/80">
+                        <Disclosure as='div' className="py-5 border-b-2 border-secondary/20 dark:border-white/20">
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
@@ -117,7 +117,7 @@ export default function FaqSection() {
                             </div>
                         </Disclosure>
 
-                        <Disclosure as='div' className="py-5 border-b-2 border-secondary dark:border-white/80">
+                        <Disclosure as='div' className="py-5 border-b-2 border-secondary/20 dark:border-white/20">
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
@@ -132,7 +132,7 @@ export default function FaqSection() {
                             </div>
                         </Disclosure>
 
-                        <Disclosure as='div' className="py-5 border-b-2 border-secondary dark:border-white/80">
+                        <Disclosure as='div' className="py-5 border-b-2 border-secondary/20 dark:border-white/20">
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">

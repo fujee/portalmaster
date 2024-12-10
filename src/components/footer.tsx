@@ -21,13 +21,13 @@ export default function Footer() {
                 <h3 className="text-3xl font-bold text-white text-center lg:text-start">{t('Повежите се са нама')}</h3>
                 <div className="lg:flex justify-between items-center mt-5">
                     <div className="max-w-screen-md text-center lg:text-start">
-                        <h6 className="text-white text-xl">{t('Ваш партнер у креирању дигиталне будућности.')}</h6>
+                        <h6 className="text-primary text-xl">{t('Ваш партнер у креирању дигиталне будућности.')}</h6>
                         <p className="text-sm lg:text-base text-white/80 mt-2">{t('Не чекајте да будућност дође до вас – корачајте јој у сусрет са нама! Контактирајте нас данас и сазнајте како наша платформа може трансформисати ваше пословање. Договорите бесплатну демонстрацију и уверите се зашто смо прави избор за ваш успех.')}</p>
                     </div>
                     <div className="mt-10 lg:mt-0">
                         <a href="mailto:contact@portalmastersolutions.com"
-                            className="block bg-primary text-white rounded-md py-2 px-6 text-base border-2 border-primary hover:bg-primary/30 max-w-sm mx-auto lg:mx-none"
-                        >{t("Контактирај нас")}<FontAwesomeIcon icon={faArrowRight} className="ms-2" /></a>
+                            className="flex justify-between items-center lg:block bg-primary text-white rounded-md py-2 px-6 text-base border-2 border-primary hover:bg-primary/30 max-w-sm mx-auto lg:mx-none"
+                        >{t("Контактирај нас")}<FontAwesomeIcon icon={faArrowRight} className="ms-auto lg:ms-2" /></a>
                     </div>
                 </div>
             </div>
@@ -66,12 +66,12 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="pt-20 text-center">
-                    <p className="text-white">&copy; Copyright 2024, {t('Сва права задржана')} -
+                    <p className="text-white">&copy; Copyright 2024,  {t('Сва права задржана')} <span className="hidden lg:inline-block">-</span>
                         <Link smooth={true}
                             spy={true}
                             to={"home"}
                             duration={500}
-                            className="text-primary underline hover:text-primary/50 cursor-pointer"> Portal Master Solutions</Link></p>
+                            className="text-primary underline hover:text-primary/50 cursor-pointer block lg:inline-block lg:ms-1"> Portal Master Solutions</Link></p>
                 </div>
             </div>
         </div>

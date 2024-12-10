@@ -11,8 +11,6 @@ import secondImageDark from "../media/functions/second/content_dark.png"
 
 import thirdImage from "../media/functions/third/content.png"
 import thirdImageDark from "../media/functions/third/content_dark.png"
-
-
 import { useTheme } from "../contexts/themeContext"
 import { LIGHT_THEME } from "../types/theme"
 
@@ -87,7 +85,7 @@ export default function FunctionSection() {
                         <div className="relative w-fit mx-auto mt-16">
                             <img src={pretragaImg} alt={t('pretraga')} className="animate-pulse" />
                             <div className="absolute border-2 px-4 py-1 rounded-md border-secondary bg-pureWhite -top-5 -left-5 shadow-lg text-secondary dark:bg-black dark:border-white dark:text-pureWhite">
-                                <p>{t('Претражите школу...')}<FontAwesomeIcon icon={faMagnifyingGlass} className="ms-2 text-black dark:text-pureWhite" /></p>
+                                <p>{t('Претражите...')}<FontAwesomeIcon icon={faMagnifyingGlass} className="ms-2 text-black dark:text-pureWhite" /></p>
                             </div>
                             <div className="absolute z-10 bg-primary px-4 py-2 rounded-md text-pureWhite shadow-xl -top-12 left-20 lg:left-28 ">
                                 <p className="animate-typing overflow-hidden whitespace-nowrap border-r-2 border-r-white pr-5 text-sm lg:text-base">{t('ОШ "Бранислав Нушић"')}</p>
