@@ -48,7 +48,8 @@ export default function Navbar() {
 
 
     const handleClose = () => {
-        close();
+        close()
+        console.log('called close')
     }
 
     return (
@@ -82,7 +83,7 @@ export default function Navbar() {
                             <ThemeSwitcher changeTextColor={scrolled && theme === LIGHT_THEME} />
                         </div>
                         <a href="mailto:contact@portalmastersolutions.com"
-                            className="block bg-primary text-white rounded-md py-2 px-6 text-base ms-2 border-2 border-primary hover:bg-primary/30 hidden lg:block"
+                            className="block bg-primary text-white rounded-md py-2 px-6 text-base ms-2 border-2 border-primary hover:bg-primary/30 hidden xl:block"
                         >{t("Контактирај нас")}<FontAwesomeIcon icon={faArrowRight} className="ms-2" /></a>
                     </div>
                     <div className="absolute inset-y-0 right-0 flex items-center lg:hidden">
@@ -98,30 +99,32 @@ export default function Navbar() {
             </div>
 
             <DisclosurePanel className="lg:hidden">
-                <div className="space-y-1 px-2 pb-3 pt-2">
-                    {routes.filter(x => x.path !== 'home').map((item) => (
-                        <Link
-                            to={item.path}
-                            smooth={true}
-                            spy={true}
-                            key={item.name}
-                            duration={500}
-                            activeClass={'active'}
-                            onSetActive={handleSetActive}
-                            onClick={handleClose}
-                            className={`hover:bg-primary/20 hover:text-white block rounded-md px-3 py-2 text-base font-medium cursor-pointer [&.active]:bg-primary/80 [&.active]:text-white ${scrolled && theme === LIGHT_THEME ? 'text-secondary' : 'text-white'}`}
-                        >
-                            {t(item.name)}
-                        </Link>
-                    ))}
-                    <div className="pt-5 pt-5">
-                        <ThemeSwitcher />
-                        <a href="mailto:contact@portalmastersolutions.com"
-                            className="block bg-primary text-white rounded-md py-2 px-6 text-base ms-2 border-2 border-primary hover:bg-primary/30 max-w-sm"
-                        >{t("Контактирај нас")}<FontAwesomeIcon icon={faArrowRight} className="ms-2" /></a>
-                        <LangChanger />
+                {({ close }: { close: () => void }) => (
+                    <div className="space-y-1 px-2 pb-3 pt-2">
+                        {routes.filter(x => x.path !== 'home').map((item) => (
+                            <Link
+                                to={item.path}
+                                smooth={true}
+                                spy={true}
+                                key={item.name}
+                                duration={500}
+                                activeClass={'active'}
+                                onSetActive={handleSetActive}
+                                onClick={close}
+                                className={`hover:bg-primary/20 hover:text-white block rounded-md px-3 py-2 text-base font-medium cursor-pointer [&.active]:bg-primary/80 [&.active]:text-white ${scrolled && theme === LIGHT_THEME ? 'text-secondary' : 'text-white'}`}
+                            >
+                                {t(item.name)}
+                            </Link>
+                        ))}
+                        <div className="pt-5 pt-5">
+                            {/* <a href="mailto:contact@portalmastersolutions.com"
+                                className="block bg-primary text-white rounded-md py-2 px-6 text-base ms-2 border-2 border-primary hover:bg-primary/30 max-w-sm"
+                            >{t("Контактирај нас")}<FontAwesomeIcon icon={faArrowRight} className="ms-2" /></a> */}
+                            <ThemeSwitcher callback={close} />
+                            <LangChanger callback={close} />
+                        </div>
                     </div>
-                </div>
+                )}
             </DisclosurePanel>
         </Disclosure>
     )

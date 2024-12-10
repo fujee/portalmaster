@@ -16,10 +16,10 @@ export default function HeroSection() {
                         {t("Добродошли на Портал Мастер", "welcome")}
                     </div>
 
-                    <h1 className="text-3xl lg:text-4xl text-white text-center mt-8 font-bold uppercase">
+                    <h1 className="text-3xl lg:text-5xl text-white text-center mt-8 font-bold uppercase">
                         {t('ПОРТАЛ НА КЛИК ОД ВАС')}
                     </h1>
-                    <h2 className='text-lg lg:text-2xl text-white text-center'>{t('ЛАКО, БЕЗБЕДНО И ЕФИКАСНО')}</h2>
+                    <h2 className='text-lg lg:text-2xl text-white text-center uppercase'>{t('ЛАКО, БЕЗБЕДНО И ЕФИКАСНО')}</h2>
 
 
                     <p className='text-white text-center mt-10'>{t("Портал Мастер је савремено софтверско решење које вам омогућава да, без техничког предзнања, направите и једноставно управљате свим веб порталима ваше организације.")}</p>
