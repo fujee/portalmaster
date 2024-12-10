@@ -66,7 +66,7 @@ export default function Navbar() {
                                     onSetActive={handleSetActive}
                                     className={`hover:text-primary/80 text-base font-medium cursor-pointer font-medium cursor-pointer [&.active]:text-primary ${scrolled ? 'text-secondary dark:text-white dark:[&.active]:text-primary dark:hover:text-primary/80' : 'text-white'}`}
                                 >
-                                    {t(item.name)}
+                                    {t(item.name, item.langKey)}
                                 </Link>
                             ))}
                         </div>
@@ -76,7 +76,7 @@ export default function Navbar() {
                         </div>
                         <a href="mailto:contact@portalmastersolutions.com"
                             className="block bg-primary text-white rounded-md py-2 px-4 text-base ms-2 border-2 border-primary hover:bg-primary/30 hidden xl:block"
-                        >{t("Контактирај нас")}<FontAwesomeIcon icon={faArrowRight} className="ms-2" /></a>
+                        >{t("Контактирај нас", "nav_contact")}<FontAwesomeIcon icon={faArrowRight} className="ms-2" /></a>
                     </div>
                     <div className="absolute inset-y-0 right-0 flex items-center lg:hidden">
                         {/* Mobile menu button*/}

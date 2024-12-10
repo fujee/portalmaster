@@ -1,10 +1,10 @@
 const routes = [
-    { name: 'home', path: "home" },
-    { name: 'Предности', path: 'about' },
-    { name: 'Функционалности', path: 'function' },
+    { name: 'home', path: "home", langKey: "home" },
+    { name: 'Предности', path: 'about', langKey: "nav_benefits" },
+    { name: 'Функционалности', path: 'function', langKey: "nav_functionalities" },
     // { name: 'Демо', path: 'demo' },
     // { name: 'Рекли су', path: 'results' },
-    { name: 'Честа питања', path: 'faq' },
+    { name: 'Честа питања', path: 'faq', langKey: "nav_faq" },
 ]
 
 export default routes

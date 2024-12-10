@@ -48,7 +48,6 @@ module.exports = {
       },
       backgroundSize: {
         custom_bg1: "118.228% 143.174%",
-        custom_bg1_dark: "118.228% 143.174%",
         custom_bg3: "contain",
         custom_bg3_dark: "contain",
       },
