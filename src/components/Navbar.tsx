@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLang } from "../contexts/langContext";
-import { Disclosure, DisclosureButton, DisclosurePanel, useClose } from "@headlessui/react";
+import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import LangChanger from "./langChanger";
@@ -17,8 +17,6 @@ export default function Navbar() {
     const [scrolled, setScrolled] = useState(false)
     const { theme } = useTheme()
     const { t } = useLang()
-    const close = useClose();
-
 
     //change nav color when scrolling
     const [color, setColor] = useState<boolean>(false)
@@ -44,12 +42,6 @@ export default function Navbar() {
         } else {
             setScrolled(true)
         }
-    }
-
-
-    const handleClose = () => {
-        close()
-        console.log('called close')
     }
 
     return (
@@ -120,8 +112,8 @@ export default function Navbar() {
                             {/* <a href="mailto:contact@portalmastersolutions.com"
                                 className="block bg-primary text-white rounded-md py-2 px-6 text-base ms-2 border-2 border-primary hover:bg-primary/30 max-w-sm"
                             >{t("Контактирај нас")}<FontAwesomeIcon icon={faArrowRight} className="ms-2" /></a> */}
-                            <ThemeSwitcher callback={close} />
-                            <LangChanger callback={close} />
+                            <ThemeSwitcher callback={close} changeTextColor={scrolled && theme === LIGHT_THEME} />
+                            <LangChanger callback={close} changeTextColor={scrolled && theme === LIGHT_THEME} />
                         </div>
                     </div>
                 )}
