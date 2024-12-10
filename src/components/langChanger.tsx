@@ -2,11 +2,11 @@ import { Listbox, ListboxButton, ListboxOption, ListboxOptions } from "@headless
 import { useLang } from "../contexts/langContext";
 import { getLabel, all as pisma, Pismo } from "../utilities/pismo";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheck, faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 
 export default function LangChanger({ className, changeTextColor }: { className?: string, changeTextColor?: boolean }) {
-    const { lang, setLang, t } = useLang();
+    const { lang, setLang } = useLang();
 
 
     const setSelected = (selected: Pismo) => {
@@ -18,7 +18,7 @@ export default function LangChanger({ className, changeTextColor }: { className?
         <div className={`relative ${className}`}>
             <ListboxButton className={`relative w-[60px] cursor-pointer py-1.5 pl-3 pr-10 text-left focus:outline-none sm:text-sm ${changeTextColor ? 'text-secondary' : 'text-white'}`}>
                 <span className="flex items-center">
-                    <span className="block me-0">{t(getLabel(lang))}</span>
+                    <span className="block me-0">{getLabel(lang)}</span>
                 </span>
                 <span className="pointer-events-none absolute inset-y-0 right-0 ml-1 flex items-center pr-1">
                     <FontAwesomeIcon icon={faChevronDown} aria-hidden="true" className="h-3 w-3 text-gray-400" />
@@ -37,7 +37,7 @@ export default function LangChanger({ className, changeTextColor }: { className?
                     >
                         <div className="flex items-center">
                             <span className="ml-3 block font-normal group-data-[selected]:text-primary group-data-[selected]:font-semibold">
-                                {t(getLabel(language))}
+                                {getLabel(language)}
                             </span>
                         </div>
                     </ListboxOption>
