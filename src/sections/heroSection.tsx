@@ -13,7 +13,7 @@ export default function HeroSection() {
                 <img src={bgImg} alt='Hero Img' className='absolute w-full h-full object-cover z-0'></img>
                 <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-screen-md'>
                     <div className='block border-2 border-primary bg-white/10 z-10 py-2 px-4 rounded-md text-lg text-white w-fit mx-auto'>
-                        {t("Добродошли на Портал Мастер")}
+                        {t("Добродошли на Портал Мастер", "welcome")}
                     </div>
 
                     <h1 className="text-4xl text-white text-center mt-8 font-bold uppercase">

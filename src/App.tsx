@@ -12,7 +12,7 @@ function App() {
       <HeroSection />
       <AboutSection />
       <FunctionSection />
-      <DemoSection />
+      {/* <DemoSection /> */}
       <ToldSection />
       <FaqSection />
     </BaseLayout>

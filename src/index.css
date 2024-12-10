@@ -12,11 +12,15 @@
 
 body {
   font-family: "Exo 2", sans-serif;
-  background: #f6f6f6;
+  background-color: #f6f6f6;
+  background-image: url("./media/pattern.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: repeat-y;
 }
 
 body:has(#tema_wrapper.dark) {
-  background: #202125;
+  background-color: #202125;
 }
 
 /* 

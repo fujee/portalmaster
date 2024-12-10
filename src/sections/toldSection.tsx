@@ -15,7 +15,7 @@ export default function ToldSection() {
     return (
         <Element name='results'>
             <div className="py-24">
-                <div className="container mx-auto">
+                <div className="container mx-auto px-5 lg:px-0">
                     <p className="text-primary text-center font-semibold text-2xl relative after:content-[''] after:absolute after:block after:h-[4px] after:w-[100px] after:-bottom-4 after:left-1/2 after:-translate-x-1/2 after:bg-primary after:rounded-xl">{t('Рекли су о нама')}</p>
                     <h2 className="mt-10 text-4xl font-bold text-black dark:text-white text-center">{t('Задовољство клијената – основа нашег успеха')}</h2>
                     <div className="w-full grid grid-cols-1 lg:grid-cols-2 mt-20">
