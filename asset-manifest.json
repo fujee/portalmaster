@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portalmaster/static/css/main.f1e6d2bb.css",
-    "main.js": "/portalmaster/static/js/main.538966ee.js",
+    "main.js": "/portalmaster/static/js/main.dea55263.js",
     "static/js/453.5d2de9de.chunk.js": "/portalmaster/static/js/453.5d2de9de.chunk.js",
     "static/media/dark_feature5.gif": "/portalmaster/static/media/dark_feature5.6534d6c81a0ec4678fcd.gif",
     "static/media/feature5.gif": "/portalmaster/static/media/feature5.bf7d3cca94249b3abb9c.gif",
@@ -17,8 +17,8 @@
     "static/media/feature6.gif": "/portalmaster/static/media/feature6.efb82874417e397ae4c9.gif",
     "static/media/feature7.gif": "/portalmaster/static/media/feature7.dbf0347a90b9cc6bdadc.gif",
     "static/media/dark_feature7.gif": "/portalmaster/static/media/dark_feature7.c1f19f5d0015b6d061ce.gif",
-    "static/media/hero-img.png": "/portalmaster/static/media/hero-img.87641bf41c690257ec2a.png",
     "static/media/blur_bubbles.png": "/portalmaster/static/media/blur_bubbles.ec3b1a5f1474be0af04f.png",
+    "static/media/hero-img-min.png": "/portalmaster/static/media/hero-img-min.fd3e92bc6e62cc934205.png",
     "static/media/feature_box_1.png": "/portalmaster/static/media/feature_box_1.e50e2bd0538eed137ab3.png",
     "static/media/instagram.svg": "/portalmaster/static/media/instagram.a9e5c826042836bb70e2ec8210daf05e.svg",
     "static/media/analitika.svg": "/portalmaster/static/media/analitika.3b877bdfe2b83538003d5be917ccf9c7.svg",
@@ -37,11 +37,11 @@
     "static/media/administracija.svg": "/portalmaster/static/media/administracija.6f3c31b049e580545021fe246a06d524.svg",
     "static/media/facebook.svg": "/portalmaster/static/media/facebook.647bebfa134902735e42e8a3f1277218.svg",
     "main.f1e6d2bb.css.map": "/portalmaster/static/css/main.f1e6d2bb.css.map",
-    "main.538966ee.js.map": "/portalmaster/static/js/main.538966ee.js.map",
+    "main.dea55263.js.map": "/portalmaster/static/js/main.dea55263.js.map",
     "453.5d2de9de.chunk.js.map": "/portalmaster/static/js/453.5d2de9de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1e6d2bb.css",
-    "static/js/main.538966ee.js"
+    "static/js/main.dea55263.js"
   ]
 }
