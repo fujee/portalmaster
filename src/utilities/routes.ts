@@ -1,6 +1,6 @@
 const routes = [
     { name: 'home', path: "home", langKey: "home" },
-    { name: 'Предности', path: 'about', langKey: "nav_benefits" },
+    { name: 'О нама', path: 'about', langKey: "nav_benefits" },
     { name: 'Функционалности', path: 'function', langKey: "nav_functionalities" },
     // { name: 'Демо', path: 'demo' },
     // { name: 'Рекли су', path: 'results' },
