@@ -17,7 +17,7 @@ export default function LangChanger({ className, changeTextColor, callback }: { 
 
     return (<Listbox value={lang} onChange={setSelected}>
         <div className={`relative ${className}`}>
-            <ListboxButton className={`relative w-full lg:w-[60px] cursor-pointer py-1.5 pl-3 pr-10 text-left focus:outline-none sm:text-sm ${changeTextColor ? 'text-secondary' : 'text-white'}`}>
+            <ListboxButton className={`relative w-full lg:w-[130px] cursor-pointer py-1.5 pl-2 pr-4 text-left focus:outline-none sm:text-sm ${changeTextColor ? 'text-secondary' : 'text-white'}`}>
                 <span className="flex items-center">
                     <span className="block me-0">{getLabel(lang)}</span>
                 </span>

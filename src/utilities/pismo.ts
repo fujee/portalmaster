@@ -34,10 +34,10 @@ export function getLang(pismo: Pismo): string {
 
 export function getLabel(pismo: Pismo): string {
     if (pismo === english) {
-        return "ENG";
+        return "English";
     }
 
-    return pismo === cirilica ? "ЋИР" : "LAT";
+    return pismo === cirilica ? "Српски (ћир)" : "Srpski (lat)";
 }
 
 // copied from https://github.com/stojanovic/cyrillic-to-latin/blob/07c2bf48cd707d8c30d9ce766abd4f64baf1e43c/cyrillicToLatin.js#L25
