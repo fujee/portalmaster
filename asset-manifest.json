@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portalmaster/static/css/main.f1e6d2bb.css",
-    "main.js": "/portalmaster/static/js/main.dea55263.js",
+    "main.css": "/portalmaster/static/css/main.a8b15da6.css",
+    "main.js": "/portalmaster/static/js/main.ec9ac3c4.js",
     "static/js/453.5d2de9de.chunk.js": "/portalmaster/static/js/453.5d2de9de.chunk.js",
     "static/media/dark_feature5.gif": "/portalmaster/static/media/dark_feature5.6534d6c81a0ec4678fcd.gif",
     "static/media/feature5.gif": "/portalmaster/static/media/feature5.bf7d3cca94249b3abb9c.gif",
@@ -36,12 +36,12 @@
     "static/media/administracija-dark.svg": "/portalmaster/static/media/administracija-dark.1215bfa39315d4d73407d2ecb0e3bb2d.svg",
     "static/media/administracija.svg": "/portalmaster/static/media/administracija.6f3c31b049e580545021fe246a06d524.svg",
     "static/media/facebook.svg": "/portalmaster/static/media/facebook.647bebfa134902735e42e8a3f1277218.svg",
-    "main.f1e6d2bb.css.map": "/portalmaster/static/css/main.f1e6d2bb.css.map",
-    "main.dea55263.js.map": "/portalmaster/static/js/main.dea55263.js.map",
+    "main.a8b15da6.css.map": "/portalmaster/static/css/main.a8b15da6.css.map",
+    "main.ec9ac3c4.js.map": "/portalmaster/static/js/main.ec9ac3c4.js.map",
     "453.5d2de9de.chunk.js.map": "/portalmaster/static/js/453.5d2de9de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1e6d2bb.css",
-    "static/js/main.dea55263.js"
+    "static/css/main.a8b15da6.css",
+    "static/js/main.ec9ac3c4.js"
   ]
 }
