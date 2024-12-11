@@ -45,7 +45,7 @@ export default function Navbar() {
     }
 
     return (
-        <Disclosure as="nav" className={`fixed w-[90%] lg:w-full backdrop-blur-xl left-1/2 -translate-x-1/2 bg-navBg shadow-lg border-navBorder z-20 transition duration-300 ease-in-out top-3 border-2 rounded-lg ${color ? 'lg:max-w-none lg:top-0 lg:border-none lg:rounded-none' : 'lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl lg:top-3 lg:border-2  lg:rounded-lg'}`}>
+        <Disclosure as="nav" className={`fixed w-[90%] lg:w-full backdrop-blur-xl left-1/2 -translate-x-1/2 bg-navBg dark:bg-navBgDark shadow-lg border-navBorder dark:border-navBorderDark z-20 transition duration-300 ease-in-out top-3 border-2 rounded-lg ${color ? 'lg:max-w-none lg:top-0 lg:border-none lg:rounded-none' : 'lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl lg:top-3 lg:border-2  lg:rounded-lg'}`}>
             <div className={`mx-auto container py-4 px-4 ${color ? 'lg:px-0' : 'lg:px-8'}`}>
                 <div className="relative flex items-center justify-between">
                     <div className="flex flex-1 items-start lg:items-center justify-start lg:items-stretch lg:justify-start h-full">

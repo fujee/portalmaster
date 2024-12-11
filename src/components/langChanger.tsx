@@ -34,7 +34,7 @@ export default function LangChanger({ className, changeTextColor, callback }: { 
                     <ListboxOption
                         key={index}
                         value={language}
-                        className="group relative cursor-pointer select-none py-2  text-gray-900 data-[focus]:bg-blue-500/80 data-[focus]:text-white"
+                        className="group relative cursor-pointer select-none py-2  text-gray-900 data-[focus]:bg-blue-500/80 data-[focus]:text-secondary dark:data-[focus]:text-primary/80"
                     >
                         <div className="flex items-center">
                             <span className="ml-3 block font-normal group-data-[selected]:text-primary group-data-[selected]:font-semibold">

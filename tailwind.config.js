@@ -13,6 +13,7 @@ module.exports = {
       faqBlack: "#1B1B1B",
       textColor: "#525252", // text
       navBg: "rgba(246, 246, 246, 0.08)",
+      navBgDark: "rgba(68, 68, 68, 0.3)",
       navBorder: "rgba(60, 72, 132, 0.48)",
       navBorderDark: "#6F6F6F",
     },
