@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portalmaster/static/css/main.8bdafe54.css",
-    "main.js": "/portalmaster/static/js/main.777f5cf8.js",
+    "main.css": "/portalmaster/static/css/main.f1e6d2bb.css",
+    "main.js": "/portalmaster/static/js/main.538966ee.js",
     "static/js/453.5d2de9de.chunk.js": "/portalmaster/static/js/453.5d2de9de.chunk.js",
-    "static/media/dark_feature5.gif": "/portalmaster/static/media/dark_feature5.f1764c182a82945c4e04.gif",
-    "static/media/feature5.gif": "/portalmaster/static/media/feature5.508b894296eb6f29f6cc.gif",
+    "static/media/dark_feature5.gif": "/portalmaster/static/media/dark_feature5.6534d6c81a0ec4678fcd.gif",
+    "static/media/feature5.gif": "/portalmaster/static/media/feature5.bf7d3cca94249b3abb9c.gif",
     "static/media/dark_feature4.gif": "/portalmaster/static/media/dark_feature4.2885d9149718f0e3186a.gif",
     "static/media/dark_feature3.gif": "/portalmaster/static/media/dark_feature3.e6bd4b58c0aa21b2dc60.gif",
     "static/media/dark_feature1.gif": "/portalmaster/static/media/dark_feature1.d16d6fafe7f021c15859.gif",
@@ -36,12 +36,12 @@
     "static/media/administracija-dark.svg": "/portalmaster/static/media/administracija-dark.1215bfa39315d4d73407d2ecb0e3bb2d.svg",
     "static/media/administracija.svg": "/portalmaster/static/media/administracija.6f3c31b049e580545021fe246a06d524.svg",
     "static/media/facebook.svg": "/portalmaster/static/media/facebook.647bebfa134902735e42e8a3f1277218.svg",
-    "main.8bdafe54.css.map": "/portalmaster/static/css/main.8bdafe54.css.map",
-    "main.777f5cf8.js.map": "/portalmaster/static/js/main.777f5cf8.js.map",
+    "main.f1e6d2bb.css.map": "/portalmaster/static/css/main.f1e6d2bb.css.map",
+    "main.538966ee.js.map": "/portalmaster/static/js/main.538966ee.js.map",
     "453.5d2de9de.chunk.js.map": "/portalmaster/static/js/453.5d2de9de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bdafe54.css",
-    "static/js/main.777f5cf8.js"
+    "static/css/main.f1e6d2bb.css",
+    "static/js/main.538966ee.js"
   ]
 }
