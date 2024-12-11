@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useLang } from '../contexts/langContext';
-import bgImg from '../media/hero-img.png'
+import bgImg from '../media/hero-img-min.png'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { Element, Link } from 'react-scroll'
 
