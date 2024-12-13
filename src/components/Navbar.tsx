@@ -76,7 +76,7 @@ export default function Navbar() {
                         </div>
                         <a href="mailto:contact@portalmastersolutions.com"
                             className="block bg-primary text-white rounded-md py-2 px-4 text-base ms-2 border-2 border-primary hover:bg-primary/30 hidden xl:block"
-                        >{t("Контактирај нас", "nav_contact")}<FontAwesomeIcon icon={faArrowRight} className="ms-2" /></a>
+                        >{t("Контактирајте нас", "nav_contact")}<FontAwesomeIcon icon={faArrowRight} className="ms-2" /></a>
                     </div>
                     <div className="absolute inset-y-0 right-0 flex items-center lg:hidden">
                         {/* Mobile menu button*/}

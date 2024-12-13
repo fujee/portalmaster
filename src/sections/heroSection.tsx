@@ -28,12 +28,12 @@ export default function HeroSection() {
                     <p className='text-white text-center mt-10'>{t("Портал Мастер је савремено софтверско решење које вам омогућава да, без техничког предзнања, направите и једноставно управљате свим веб порталима ваше организације.", "hero_description")}</p>
                     {lang === 'en' && <p className='text-white text-center'>{t("", "hero_description_other")}</p>}
                     <div className='flex justify-center items-center mt-20 gap-4'>
-                        <a href='mailto:contact@portalmastersolutions.com' className='py-2 px-4 text-white bg-primary border-2 border-primary rounded-md hover:bg-primary/30 cursor-pointer ease-in-out duration-200'>{t("Започни сада", "hero_btn_1")}</a>
+                        <a href='mailto:contact@portalmastersolutions.com' className='py-2 px-4 text-white bg-primary border-2 border-primary rounded-md hover:bg-primary/30 cursor-pointer ease-in-out duration-200'>{t("Започните сада", "hero_btn_1")}</a>
                         <Link to='about'
                             smooth={true}
                             spy={true}
                             duration={500}
-                            className='py-2 px-4 text-white bg-transparent border-2 border-white rounded-md hover:bg-white/30 cursor-pointer ease-in-out duration-200'>{t("Сазнај више", "hero_btn_2")} <FontAwesomeIcon icon={faArrowRight} className='ms-2' /></Link>
+                            className='py-2 px-4 text-white bg-transparent border-2 border-white rounded-md hover:bg-white/30 cursor-pointer ease-in-out duration-200'>{t("Сазнајте више", "hero_btn_2")} <FontAwesomeIcon icon={faArrowRight} className='ms-2' /></Link>
                     </div>
                 </div>
             </div>

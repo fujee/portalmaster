@@ -32,7 +32,7 @@ export default function FunctionSection() {
             <div className="container mx-auto px-5 lg:px-0">
                 <p className="text-primary text-center font-semibold text-xl lg:text-2xl relative after:content-[''] after:absolute after:block after:h-[4px] after:w-[100px] after:-bottom-4 after:left-1/2 after:-translate-x-1/2 after:bg-primary after:rounded-xl">{t('Кључне фунцкионалности', "func_uppertitle")}</p>
                 <h2 className="mt-10 text-2xl lg:text-4xl font-bold text-black dark:text-white text-center">{t('Олакшајте администрацију и усредсредите се на суштину свог пословања', "func_title")}</h2>
-                <p className="max-w-screen-lg mx-auto mt-5 text-center text-sm lg:text-lg text-black/90 dark:text-white/90">{t('Портал Мастер нуди централизовано, сигурно и у потпуности прилагодљиво решење осмишљено да поједностави администрацију и омогући корисницима да се фокусирају на постизање кључних циљева.', "func_desc")}</p>
+                <p className="max-w-screen-lg mx-auto mt-5 text-center text-sm lg:text-lg text-black/90 dark:text-white/90">{t('Портал Мастер представља централизовано, сигурно и у потпуности прилагодљиво решење осмишљено да поједностави администрацију и омогући клијентима да се фокусирају на постизање својих циљева.', "func_desc")}</p>
                 <div className="grid grid-cols-1 lg:grid-cols-8 lg:grid-rows-4 gap-6 mt-20">
                     <div className="lg:col-span-5 lg:row-span-1 border-2 rounded-xl lg:h-[440px] border-navBorder dark:border-navBorderDark bg-pureWhite bg-custom_bg1 dark:bg-pureBlack dark:bg-custom_bg1_dark p-5 lg:p-10 flex flex-col">
                         <div className="flex-grow-0">
@@ -56,8 +56,8 @@ export default function FunctionSection() {
 
                     <div className="border-2 rounded-xl h-[440px] border-navBorder dark:border-navBorderDark p-5 lg:p-10 lg:col-span-4 lg:row-span-1 bg-pureWhite bg-custom_bg2 dark:bg-pureBlack dark:bg-custom_bg2_dark flex flex-col">
                         <div className="flex-grow-0">
-                            <h5 className="text-xl lg:text-2xl text-black font-bold dark:text-white">{t("Централизовано одржавање садржаја", "func_3_title")}</h5>
-                            <p className="mt-3 text-md lg:text-lg text-black/80 dark:text-white/80">{t('Заједнички садржај се ажурира на једном месту и аутоматски се примењује на свим порталима, уз могућност појединачног прилагођавања.', "func_3_desc")}</p>
+                            <h5 className="text-xl lg:text-2xl text-black font-bold dark:text-white">{t("Централизовано управљање садржајем", "func_3_title")}</h5>
+                            <p className="mt-3 text-md lg:text-lg text-black/80 dark:text-white/80">{t('Заједнички садржај се креира на једном месту и аутоматски се примењује на свим порталима, уз могућност појединачног прилагођавања.', "func_3_desc")}</p>
                         </div>
                         <div className="flex-grow relative overflow-hidden mt-4 flex">
                             <img src={theme === LIGHT_THEME ? feature3 : feature3Dark} alt={t("Централизовано одржавање садржаја", "func_3_title")} className="max-h-[230px] w-full h-full object-contain mt-auto" />
@@ -68,7 +68,7 @@ export default function FunctionSection() {
                     <div className="border-2 rounded-xl h-[440px] border-navBorder dark:border-navBorderDark p-5 lg:p-10 lg:col-span-4 lg:row-span-1 bg-pureWhite bg-custom_bg3 dark:bg-pureBlack dark:bg-custom_bg3_dark bg-no-repeat flex flex-col">
                         <div className="flex-grow-0">
                             <h5 className="text-xl lg:text-2xl text-black font-bold dark:text-white">{t("Једноставно управљање", "func_4_title")}</h5>
-                            <p className="mt-3 text-md lg:text-lg text-black/80 dark:text-white/80">{t('Додавање, уређивање и управљање корисничким налозима, са подршком за интеграцију са екстерним системима за идентификацију.', "func_4_desc")}</p>
+                            <p className="mt-3 text-md lg:text-lg text-black/80 dark:text-white/80">{t('Додавање, уређивање и управљање корисничким налозима, са подршком за интеграцију са екстерним системима за аутентикацију.', "func_4_desc")}</p>
                         </div>
                         <div className="flex-grow relative overflow-hidden mt-4 flex">
                             <img src={theme === LIGHT_THEME ? feature4 : feature4Dark} alt={t("Једноставно управљање", "func_4_title")} className="max-h-[230px] w-full h-full object-contain mt-auto" />
@@ -98,18 +98,18 @@ export default function FunctionSection() {
 
                     <div className="border-2 rounded-xl h-[440px] border-navBorder dark:border-navBorderDark p-5 lg:p-10 lg:col-span-4 lg:row-span-1 bg-custom_bg5 dark:bg-pureBlack dark:bg-custom_bg5_dark flex flex-col">
                         <div className="flex-grow-0">
-                            <h5 className="text-xl lg:text-2xl text-black font-bold dark:text-white">{t("Вишејезичност и аутоматски превод садржаја", "func_7_title")}</h5>
-                            <p className="mt-3 text-md lg:text-lg text-black/80 dark:text-white/80">{t('Аутоматски превод између ћирилице и латинице, уз интегрисану подршку за више језика.', "func_7_desc")}</p>
+                            <h5 className="text-xl lg:text-2xl text-black font-bold dark:text-white">{t("Локализација", "func_7_title")}</h5>
+                            <p className="mt-3 text-md lg:text-lg text-black/80 dark:text-white/80">{t('Интегрисана подршка за више језика и аутоматско превођење између ћирилице и латинице.', "func_7_desc")}</p>
                         </div>
                         <div className="flex-grow relative overflow-hidden mt-4 flex">
-                            <img src={theme === LIGHT_THEME ? feature7 : feature7Dark} alt={t("Вишејезичност и аутоматски превод садржаја", "func_7_title")} className="max-h-[230px] w-full h-full object-contain mt-auto" />
+                            <img src={theme === LIGHT_THEME ? feature7 : feature7Dark} alt={t("Локализација", "func_7_title")} className="max-h-[230px] w-full h-full object-contain mt-auto" />
                         </div>
                     </div>
 
                     <div className="border-2 rounded-xl h-[440px] border-navBorder dark:border-navBorderDark p-5 lg:p-10 lg:col-span-4 lg:row-span-1 bg-pureWhite dark:bg-pureBlack">
                         <div>
                             <h5 className="text-xl lg:text-2xl text-black font-bold dark:text-white">{t("Напредна претрага", "func_8_title")}</h5>
-                            <p className="mt-3 text-md lg:text-lg text-black/80 dark:text-white/80">{t('Претраживање садржаја мреже портала са једног места, уз коришћење напредних филтера као што су категорије, кључне речи или временски опсег.', "func_8_desc")}</p>
+                            <p className="mt-3 text-md lg:text-lg text-black/80 dark:text-white/80">{t('Претраживање садржаја мреже портала са једног места, уз коришћење напредних филтера као што су категорије, кључне речи или временски опсези.', "func_8_desc")}</p>
                         </div>
                         <div className="relative w-fit mx-auto mt-20">
                             <img src={pretragaImg} alt={t('pretraga')} className="animate-pulse" />

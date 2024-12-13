@@ -5,8 +5,8 @@ import logo from "../media/logo.png"
 import routes from "../utilities/routes"
 import { Link } from "react-scroll"
 
-import facebook from "../media/contact/facebook.svg";
-import instagram from "../media/contact/instagram.svg";
+// import facebook from "../media/contact/facebook.svg";
+// import instagram from "../media/contact/instagram.svg";
 import linkedin from "../media/contact/linkedin.svg";
 
 import fonLogo from '../media/fon.png'
