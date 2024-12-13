@@ -9,11 +9,13 @@ import facebook from "../media/contact/facebook.svg";
 import instagram from "../media/contact/instagram.svg";
 import linkedin from "../media/contact/linkedin.svg";
 
-
+import fonLogo from '../media/fon.png'
+import fonLogoLat from '../media/fon_lat.png'
+import fonLogoEng from '../media/fon_eng.png'
 
 
 export default function Footer() {
-    const { t } = useLang()
+    const { t, lang } = useLang()
 
     return <div className="bg-black dark:bg-pureBlack py-20 pb-10">
         <div className="container mx-auto">
@@ -53,15 +55,18 @@ export default function Footer() {
                     </div>
                     <div className="lg:ms-auto">
                         <div className="flex justify-center lg:justify-start gap-5">
-                            <a href="https://fon.bg.ac.rs" target="_blank" rel="noreferrer"><img src={facebook} alt="facebook icon" /></a>
+                            {/* <a href="https://fon.bg.ac.rs" target="_blank" rel="noreferrer"><img src={facebook} alt="facebook icon" /></a> */}
                             <a href="https://fon.bg.ac.rs" target="_blank" rel="noreferrer"><img src={linkedin} alt="linkedin icon" /></a>
-                            <a href="https://fon.bg.ac.rs" target="_blank" rel="noreferrer"><img src={instagram} alt="instagram icon" /></a>
+                            {/* <a href="https://fon.bg.ac.rs" target="_blank" rel="noreferrer"><img src={instagram} alt="instagram icon" /></a> */}
                         </div>
                         <div className="mt-10 text-center lg:text-start">
                             {/* <p className="text-white">{t("Телефон")}</p>
                             <p className="text-white/80 mb-2"><a href="tel:+381645845484" className="text-white/80 hover:text-primary">+381645845484</a></p> */}
                             <p className="text-white mt-2">{t("Електронска пошта", "footer_email")}</p>
                             <p className="text-white/80"><a href="mailto:contact@portalmastersolutions.com" className="text-white/80 hover:text-primary">contact@portalmastersolutions.com</a></p>
+                        </div>
+                        <div className="w-full mt-10">
+                            <img src={lang === 'cir' ? fonLogo : lang === 'lat' ? fonLogoLat : fonLogoEng} className="w-[70%] sm:w-[50%] mx-auto lg:w-full h-auto object-contain lg:max-w-[250px]" alt="Факултет организационих наука" />
                         </div>
                     </div>
                 </div>
