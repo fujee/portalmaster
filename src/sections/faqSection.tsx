@@ -57,17 +57,18 @@ export default function FaqSection() {
                                 </DisclosurePanel>
                             </div>
                         </Disclosure>
+
                         <Disclosure as='div' className="py-5 border-b-2 border-secondary/20 dark:border-white/20">
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
-                                <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">{t("Како се ажурирају портали?", "faq_q4")}</h6>
+                                <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">{t("Да ли је могућа интеграција са постојећим системима?", "faq_q4")}</h6>
                                 <FontAwesomeIcon icon={faPlusCircle} className="text-primary text-2xl block group-data-[open]:hidden" />
                                 <FontAwesomeIcon icon={faMinusCircle} className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block" />
                             </DisclosureButton>
                             <div className="overflow-hidden py-2">
                                 <DisclosurePanel transition className="origin-top transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0">
-                                    <p className="mt-4 text-black/80 dark:text-white/80">{t('Портали се ажурирају аутоматски, путем централизованог система, што осигурава да увек имате приступ најновијим функционалностима и максималној сигурности, без потребе за техничким интервенцијама са ваше стране.', "faq_a4")}</p>
+                                    <p className="mt-4 text-black/80 dark:text-white/80">{t('Да, Портал Мастер може да подржи интеграцију са постојећим системима који су од значаја за ваше пословање. ', "faq_a4")}</p>
                                 </DisclosurePanel>
                             </div>
                         </Disclosure>
@@ -76,13 +77,13 @@ export default function FaqSection() {
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
-                                <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">{t("Да ли је могућа интеграција са постојећим системима?", "faq_q5")}</h6>
+                                <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">{t("Како се гарантује сигурност података на платформи?", "faq_q5")}</h6>
                                 <FontAwesomeIcon icon={faPlusCircle} className="text-primary text-2xl block group-data-[open]:hidden" />
                                 <FontAwesomeIcon icon={faMinusCircle} className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block" />
                             </DisclosureButton>
                             <div className="overflow-hidden py-2">
                                 <DisclosurePanel transition className="origin-top transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0">
-                                    <p className="mt-4 text-black/80 dark:text-white/80">{t('Да, Портал Мастер може да подржи интеграцију са постојећим системима који су од значаја за ваше пословање. ', "faq_a5")}</p>
+                                    <p className="mt-4 text-black/80 dark:text-white/80">{t('Платформа обезбеђује заштиту података коришћењем најсавременијих сигурносних протокола, као што су криптовање, контрола приступа и редовно ажурирање сигурносних система. Ово осигурава висок ниво заштите и поузданости.', "faq_a5")}</p>
                                 </DisclosurePanel>
                             </div>
                         </Disclosure>
@@ -91,13 +92,13 @@ export default function FaqSection() {
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
-                                <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">{t("Како се гарантује сигурност података на платформи?", "faq_q6")}</h6>
+                                <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">{t("Која врста подршке је доступна корисницима?", "faq_q6")}</h6>
                                 <FontAwesomeIcon icon={faPlusCircle} className="text-primary text-2xl block group-data-[open]:hidden" />
                                 <FontAwesomeIcon icon={faMinusCircle} className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block" />
                             </DisclosureButton>
                             <div className="overflow-hidden py-2">
                                 <DisclosurePanel transition className="origin-top transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0">
-                                    <p className="mt-4 text-black/80 dark:text-white/80">{t('Платформа обезбеђује заштиту података коришћењем најсавременијих сигурносних протокола, као што су криптовање, контрола приступа и редовно ажурирање сигурносних система. Ово осигурава висок ниво заштите и поузданости.', "faq_a6")}</p>
+                                    <p className="mt-4 text-black/80 dark:text-white/80">{t('Пружамо свеобухватну подршку корисницима, укључујући техничку помоћ, обуку и детаљну документацију, како бисте максимално искористили могућности платформе.', "faq_a6")}</p>
                                 </DisclosurePanel>
                             </div>
                         </Disclosure>
@@ -106,28 +107,13 @@ export default function FaqSection() {
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
-                                <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">{t("Која врста подршке је доступна корисницима?", "faq_q7")}</h6>
+                                <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">{t("Да ли су хостинг и домени део решења", "faq_q7")}</h6>
                                 <FontAwesomeIcon icon={faPlusCircle} className="text-primary text-2xl block group-data-[open]:hidden" />
                                 <FontAwesomeIcon icon={faMinusCircle} className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block" />
                             </DisclosureButton>
                             <div className="overflow-hidden py-2">
                                 <DisclosurePanel transition className="origin-top transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0">
-                                    <p className="mt-4 text-black/80 dark:text-white/80">{t('Пружамо свеобухватну подршку корисницима, укључујући техничку помоћ, обуку и детаљну документацију, како бисте максимално искористили могућности платформе.', "faq_a7")}</p>
-                                </DisclosurePanel>
-                            </div>
-                        </Disclosure>
-
-                        <Disclosure as='div' className="py-5 border-b-2 border-secondary/20 dark:border-white/20">
-                            <DisclosureButton
-                                as="div"
-                                className="w-full flex justify-between cursor-pointer group pb-2">
-                                <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">{t("Да ли су хостинг и домени део решења", "faq_q8")}</h6>
-                                <FontAwesomeIcon icon={faPlusCircle} className="text-primary text-2xl block group-data-[open]:hidden" />
-                                <FontAwesomeIcon icon={faMinusCircle} className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block" />
-                            </DisclosureButton>
-                            <div className="overflow-hidden py-2">
-                                <DisclosurePanel transition className="origin-top transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0">
-                                    <p className="mt-4 text-black/80 dark:text-white/80">{t('У оквиру цене укључени су и трошкови хостинга за све портале, чиме се елиминишу додатни оперативни издаци за организацију. Такође, корисницима који не желе да користе сопствене домене, нудимо могућност креирања поддомена за сваки специфични портал.', "faq_a8")}</p>
+                                    <p className="mt-4 text-black/70 dark:text-white/80">{t('У оквиру цене укључени су и трошкови хостинга за све портале, чиме се елиминишу додатни оперативни издаци за организацију. Такође, корисницима који не желе да користе сопствене домене, нудимо могућност креирања поддомена за сваки специфични портал.', "faq_a7")}</p>
                                 </DisclosurePanel>
                             </div>
                         </Disclosure>
@@ -137,13 +123,13 @@ export default function FaqSection() {
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
-                                <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">{t("Како могу да добијем додатне информације о платформи?", "faq_q9")}</h6>
+                                <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">{t("Како могу да добијем додатне информације о платформи?", "faq_q8")}</h6>
                                 <FontAwesomeIcon icon={faPlusCircle} className="text-primary text-2xl block group-data-[open]:hidden" />
                                 <FontAwesomeIcon icon={faMinusCircle} className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block" />
                             </DisclosureButton>
                             <div className="overflow-hidden py-2">
                                 <DisclosurePanel transition className="origin-top transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0">
-                                    <p className="mt-4 text-black/80 dark:text-white/80">{t('Контактирајте нас', "faq_a9")} <a href="mailto:contact@portalmastersolutions.com" className="text-primary hover:text-secondary underline dark:hover:text-pureWhite">contact@portalmastersolutions.com</a></p>
+                                    <p className="mt-4 text-black/80 dark:text-white/80">{t('Контактирајте нас', "faq_a8")} <a href="mailto:contact@portalmastersolutions.com" className="text-primary hover:text-secondary underline dark:hover:text-pureWhite">contact@portalmastersolutions.com</a></p>
                                 </DisclosurePanel>
                             </div>
                         </Disclosure>

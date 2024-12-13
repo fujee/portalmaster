@@ -24,7 +24,8 @@ export default function Footer() {
                 <div className="lg:flex justify-between items-center mt-5">
                     <div className="max-w-screen-md text-center lg:text-start">
                         <h6 className="text-primary text-xl">{t('Ваш партнер у креирању дигиталне будућности.', "footer_subtitle")}</h6>
-                        <p className="text-sm lg:text-base text-white/80 mt-2">{t('Не чекајте да будућност дође до вас – корачајте јој у сусрет са нама! Контактирајте нас данас и сазнајте како наша платформа може трансформисати ваше пословање. Договорите бесплатну демонстрацију и уверите се зашто смо прави избор за ваш успех.', "footer_description")}</p>
+                        <p className="text-sm lg:text-base text-white/80 mt-2">{t('Контактирајте нас данас и сазнајте како Портал Мастер може унапредити ваше пословање.', "footer_description")}</p>
+                        <p className="text-sm lg:text-base text-white/80">{t('Договорите бесплатну демонстрацију и уверите се зашто смо прави избор за ваш успех.', "footer_description_2")}</p>
                     </div>
                     <div className="mt-10 lg:mt-0">
                         <a href="mailto:contact@portalmastersolutions.com"
