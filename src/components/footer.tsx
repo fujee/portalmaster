@@ -30,7 +30,7 @@ export default function Footer() {
                     <div className="mt-10 lg:mt-0">
                         <a href="mailto:contact@portalmastersolutions.com"
                             className="flex justify-between items-center lg:block bg-primary text-white rounded-md py-2 px-6 text-base border-2 border-primary hover:bg-primary/30 max-w-sm mx-auto lg:mx-none"
-                        >{t("Контактирај нас", "nav_contact")}<FontAwesomeIcon icon={faArrowRight} className="ms-auto lg:ms-2" /></a>
+                        >{t("Контактирајте нас", "nav_contact")}<FontAwesomeIcon icon={faArrowRight} className="ms-auto lg:ms-2" /></a>
                     </div>
                 </div>
             </div>
