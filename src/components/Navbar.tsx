@@ -105,7 +105,7 @@ export default function Navbar() {
                                 onClick={close}
                                 className={`hover:bg-primary/20 hover:text-white block rounded-md px-3 py-2 text-base font-medium cursor-pointer [&.active]:bg-primary/80 [&.active]:text-white ${scrolled && theme === LIGHT_THEME ? 'text-secondary' : 'text-white'}`}
                             >
-                                {t(item.name)}
+                                {t(item.name, item.langKey)}
                             </Link>
                         ))}
                         <div className="pt-5 pt-5">
