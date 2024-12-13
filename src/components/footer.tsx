@@ -66,7 +66,8 @@ export default function Footer() {
                             <p className="text-white/80"><a href="mailto:contact@portalmastersolutions.com" className="text-white/80 hover:text-primary">contact@portalmastersolutions.com</a></p>
                         </div>
                         <div className="w-full mt-10">
-                            <img src={lang === 'cir' ? fonLogo : lang === 'lat' ? fonLogoLat : fonLogoEng} className="w-[70%] sm:w-[50%] mx-auto lg:w-full h-auto object-contain lg:max-w-[250px]" alt="Факултет организационих наука" />
+                            <p className="text-white/60 text-center lg:text-start mb-2">{t('Подржано од стране', 'footer_supported')}</p>
+                            <a href="https://fon.bg.ac.rs" rel="noreferrer" target="_blank"><img src={lang === 'cir' ? fonLogo : lang === 'lat' ? fonLogoLat : fonLogoEng} className="w-[70%] sm:w-[50%] mx-auto lg:w-full h-auto object-contain lg:max-w-[250px]" alt="Факултет организационих наука" /></a>
                         </div>
                     </div>
                 </div>
