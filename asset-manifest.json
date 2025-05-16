@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portalmaster/static/css/main.4a6a4085.css",
-    "main.js": "/portalmaster/static/js/main.53e48e22.js",
+    "main.js": "/portalmaster/static/js/main.45e9984f.js",
     "static/js/453.5d2de9de.chunk.js": "/portalmaster/static/js/453.5d2de9de.chunk.js",
     "static/media/dark_feature5.gif": "/portalmaster/static/media/dark_feature5.6534d6c81a0ec4678fcd.gif",
     "static/media/feature5.gif": "/portalmaster/static/media/feature5.bf7d3cca94249b3abb9c.gif",
@@ -23,26 +23,26 @@
     "static/media/fon.png": "/portalmaster/static/media/fon.d1de42352dac31bd41b8.png",
     "static/media/fon_lat.png": "/portalmaster/static/media/fon_lat.9d4200eabdab15655ba3.png",
     "static/media/feature_box_1.png": "/portalmaster/static/media/feature_box_1.e50e2bd0538eed137ab3.png",
-    "static/media/analitika.svg": "/portalmaster/static/media/analitika.3b877bdfe2b83538003d5be917ccf9c7.svg",
-    "static/media/analitika-dark.svg": "/portalmaster/static/media/analitika-dark.cad49e9cf413881febe3dc6eb9772b81.svg",
-    "static/media/security.svg": "/portalmaster/static/media/security.9544db4be9eca2134a669323658c6f7b.svg",
-    "static/media/security-dark.svg": "/portalmaster/static/media/security-dark.558145e69c81d3a8266cef56d19d426d.svg",
-    "static/media/kvalitet-dark.svg": "/portalmaster/static/media/kvalitet-dark.fb14918ac2418c811ccb9e974f6e738b.svg",
-    "static/media/kvalitet.svg": "/portalmaster/static/media/kvalitet.9deb82d9094e614338f577942628f90f.svg",
-    "static/media/primena-dark.svg": "/portalmaster/static/media/primena-dark.ab80aaedd84b5566e17d9c0d857ce5c3.svg",
-    "static/media/primena.svg": "/portalmaster/static/media/primena.b9ca7fa903b659e1da9e574265bc29c4.svg",
-    "static/media/iskustvo-dark.svg": "/portalmaster/static/media/iskustvo-dark.cdc6ff6dce9384eefc17c0dff6647f46.svg",
-    "static/media/iskustvo.svg": "/portalmaster/static/media/iskustvo.e92d6740b15fe92467bc865561dc70ec.svg",
-    "static/media/linkedin.svg": "/portalmaster/static/media/linkedin.14bfdb7776f89093979ed428c66b33b4.svg",
+    "static/media/analitika.svg": "/portalmaster/static/media/analitika.be78f40f1bbad63e7d7aec8c9184f8a4.svg",
+    "static/media/analitika-dark.svg": "/portalmaster/static/media/analitika-dark.62aeec4aef5e0da9c8b3150649288502.svg",
+    "static/media/security.svg": "/portalmaster/static/media/security.e8a94dde58f280c057d38f5329a14ce0.svg",
+    "static/media/security-dark.svg": "/portalmaster/static/media/security-dark.2a7daa88267678326a9c0ff400eb295b.svg",
+    "static/media/kvalitet-dark.svg": "/portalmaster/static/media/kvalitet-dark.fdb2ab374cd33b012031033a7555f1af.svg",
+    "static/media/kvalitet.svg": "/portalmaster/static/media/kvalitet.1e176339d46c9813a7a715546fe9bb21.svg",
+    "static/media/primena-dark.svg": "/portalmaster/static/media/primena-dark.ad380c1e043f056b8a78ccb1375f0e14.svg",
+    "static/media/primena.svg": "/portalmaster/static/media/primena.a1e241a69826f427a646c671dad49f20.svg",
+    "static/media/iskustvo-dark.svg": "/portalmaster/static/media/iskustvo-dark.99835c70aff72ddfe14fac3812cbbd3b.svg",
+    "static/media/iskustvo.svg": "/portalmaster/static/media/iskustvo.8b4fff51c37370b719b87c2692430e35.svg",
+    "static/media/linkedin.svg": "/portalmaster/static/media/linkedin.fc0daf378a7cc5e268babb1a458fe178.svg",
     "index.html": "/portalmaster/index.html",
-    "static/media/administracija-dark.svg": "/portalmaster/static/media/administracija-dark.1215bfa39315d4d73407d2ecb0e3bb2d.svg",
-    "static/media/administracija.svg": "/portalmaster/static/media/administracija.6f3c31b049e580545021fe246a06d524.svg",
+    "static/media/administracija-dark.svg": "/portalmaster/static/media/administracija-dark.224db7f8d923536bb16e633fdce4a790.svg",
+    "static/media/administracija.svg": "/portalmaster/static/media/administracija.5073c511bea91d4ff1ab277a05e3292b.svg",
     "main.4a6a4085.css.map": "/portalmaster/static/css/main.4a6a4085.css.map",
-    "main.53e48e22.js.map": "/portalmaster/static/js/main.53e48e22.js.map",
+    "main.45e9984f.js.map": "/portalmaster/static/js/main.45e9984f.js.map",
     "453.5d2de9de.chunk.js.map": "/portalmaster/static/js/453.5d2de9de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a6a4085.css",
-    "static/js/main.53e48e22.js"
+    "static/js/main.45e9984f.js"
   ]
 }
