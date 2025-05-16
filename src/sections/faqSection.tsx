@@ -109,13 +109,13 @@ export default function FaqSection() {
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
-                                <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">{t("Да ли су хостинг и домени део решења", "faq_q7")}</h6>
+                                <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">{t("Да ли су хостинг и домени део решења?", "faq_q7")}</h6>
                                 <FontAwesomeIcon icon={faPlusCircle} className="text-primary text-2xl block group-data-[open]:hidden" />
                                 <FontAwesomeIcon icon={faMinusCircle} className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block" />
                             </DisclosureButton>
                             <div className="overflow-hidden py-2">
                                 <DisclosurePanel transition className="origin-top transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0">
-                                    <p className="mt-4 text-black/70 dark:text-white/80">{t('У оквиру цене укључени су и трошкови хостинга за све портале, чиме се елиминишу додатни оперативни. Такође, корисницима који не желе да користе сопствене домене, нудимо могућност креирања поддомена за сваки појединачни портал.', "faq_a7")}</p>
+                                    <p className="mt-4 text-black/70 dark:text-white/80">{t('У оквиру цене укључени су и трошкови хостинга за све портале, чиме се елиминишу додатни оперативни издаци. Такође, корисницима који не желе да користе сопствене домене, нудимо могућност креирања поддомена за сваки појединачни портал.', "faq_a7")}</p>
                                 </DisclosurePanel>
                             </div>
                         </Disclosure>
