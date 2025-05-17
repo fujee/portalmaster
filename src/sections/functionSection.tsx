@@ -30,7 +30,7 @@ export default function FunctionSection() {
     return <Element name='function'>
         <div className="py-24">
             <div className="container mx-auto px-5 lg:px-0">
-                <p className="text-primary text-center font-semibold text-xl lg:text-2xl relative after:content-[''] after:absolute after:block after:h-[4px] after:w-[100px] after:-bottom-4 after:left-1/2 after:-translate-x-1/2 after:bg-primary after:rounded-xl">{t('Кључне фунцкионалности', "func_uppertitle")}</p>
+                <p className="text-primary text-center font-semibold text-xl lg:text-2xl relative after:content-[''] after:absolute after:block after:h-[4px] after:w-[100px] after:-bottom-4 after:left-1/2 after:-translate-x-1/2 after:bg-primary after:rounded-xl">{t('Кључне функционалности', "func_uppertitle")}</p>
                 <h2 className="mt-10 text-2xl lg:text-4xl font-bold text-black dark:text-white text-center">{t('Олакшајте администрацију и усредсредите се на суштину свог пословања', "func_title")}</h2>
                 <p className="max-w-screen-lg mx-auto mt-5 text-center text-sm lg:text-lg text-black/90 dark:text-white/90">{t('Портал Мастер представља централизовано, сигурно и у потпуности прилагодљиво решење осмишљено да поједностави администрацију и омогући клијентима да се фокусирају на постизање својих циљева.', "func_desc")}</p>
                 <div className="grid grid-cols-1 lg:grid-cols-8 lg:grid-rows-4 gap-6 mt-20">
