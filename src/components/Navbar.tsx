@@ -4,8 +4,8 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import LangChanger from "./langChanger";
-import logo from "../media/logo.png"
-import logoDark from "../media/logo-dark.png"
+import logo from "../media/logo_portalmaster_light.png"
+import logoDark from "../media/logo_portalmaster_dark.png"
 import ThemeSwitcher from "./themeSwitcher";
 import { Link } from "react-scroll";
 import { useTheme } from "../contexts/themeContext";
