@@ -5,7 +5,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import LangChanger from "./langChanger";
 import logo from "../media/logo_portalmaster_light.png"
+import logoCyr from "../media/logo_portalmaster_light_cir.png"
 import logoDark from "../media/logo_portalmaster_dark.png"
+import logoCyrDark from "../media/logo_portalmaster_dark_cir.png"
 import ThemeSwitcher from "./themeSwitcher";
 import { Link } from "react-scroll";
 import { useTheme } from "../contexts/themeContext";
@@ -16,7 +18,7 @@ import routes from "../utilities/routes";
 export default function Navbar() {
     const [scrolled, setScrolled] = useState(false)
     const { theme } = useTheme()
-    const { t } = useLang()
+    const { t, lang } = useLang()
 
     //change nav color when scrolling
     const [color, setColor] = useState<boolean>(false)
@@ -51,7 +53,7 @@ export default function Navbar() {
                     <div className="flex flex-1 items-start lg:items-center justify-start lg:items-stretch lg:justify-start h-full">
                         <div className="flex flex-shrink-0 items-start lg:items-center justify-start">
                             <Link to='home' smooth={true} spy={true} className="cursor-pointer" onSetActive={handleSetActive}>
-                                <img src={scrolled && theme === LIGHT_THEME ? logoDark : logo} alt="Logo" className="h-[35px] object-contain" />
+                                <img src={scrolled && theme === LIGHT_THEME ? (lang === 'cir' ? logoCyrDark : logoDark) : (lang === 'cir' ? logoCyr : logo)} alt="Logo" className="h-[35px] object-contain" />
                             </Link>
                         </div>
                         <div className="hidden lg:ml-auto lg:flex space-x-4 items-center">
