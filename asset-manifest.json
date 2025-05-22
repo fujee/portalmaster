@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portalmaster/static/css/main.92350cab.css",
-    "main.js": "/portalmaster/static/js/main.1f47d240.js",
+    "main.js": "/portalmaster/static/js/main.cef0fc6b.js",
     "static/js/453.5febe422.chunk.js": "/portalmaster/static/js/453.5febe422.chunk.js",
     "static/media/dark_feature5.gif": "/portalmaster/static/media/dark_feature5.6534d6c81a0ec4678fcd.gif",
     "static/media/feature5.gif": "/portalmaster/static/media/feature5.bf7d3cca94249b3abb9c.gif",
@@ -19,9 +19,11 @@
     "static/media/dark_feature7.gif": "/portalmaster/static/media/dark_feature7.c1f19f5d0015b6d061ce.gif",
     "static/media/blur_bubbles.png": "/portalmaster/static/media/blur_bubbles.ec3b1a5f1474be0af04f.png",
     "static/media/hero-img-min.png": "/portalmaster/static/media/hero-img-min.fd3e92bc6e62cc934205.png",
+    "static/media/logo_portalmaster_dark_cir.png": "/portalmaster/static/media/logo_portalmaster_dark_cir.f6186b8b63387f531a0e.png",
     "static/media/logo_portalmaster_dark.png": "/portalmaster/static/media/logo_portalmaster_dark.2ad5975b8253e973ae1d.png",
     "static/media/fon_eng.png": "/portalmaster/static/media/fon_eng.725fd0b96f85eac49506.png",
     "static/media/fon.png": "/portalmaster/static/media/fon.d1de42352dac31bd41b8.png",
+    "static/media/logo_portalmaster_light_cir.png": "/portalmaster/static/media/logo_portalmaster_light_cir.5ff88841ad812d24a10e.png",
     "static/media/fon_lat.png": "/portalmaster/static/media/fon_lat.9d4200eabdab15655ba3.png",
     "static/media/logo_portalmaster_light.png": "/portalmaster/static/media/logo_portalmaster_light.ac7913fe9f2169adfc8d.png",
     "static/media/feature_box_1.png": "/portalmaster/static/media/feature_box_1.e50e2bd0538eed137ab3.png",
@@ -29,6 +31,7 @@
     "static/media/analitika-dark.svg": "/portalmaster/static/media/analitika-dark.cad49e9cf413881febe3dc6eb9772b81.svg",
     "static/media/security.svg": "/portalmaster/static/media/security.9544db4be9eca2134a669323658c6f7b.svg",
     "static/media/security-dark.svg": "/portalmaster/static/media/security-dark.558145e69c81d3a8266cef56d19d426d.svg",
+    "index.html": "/portalmaster/index.html",
     "static/media/kvalitet-dark.svg": "/portalmaster/static/media/kvalitet-dark.fb14918ac2418c811ccb9e974f6e738b.svg",
     "static/media/kvalitet.svg": "/portalmaster/static/media/kvalitet.9deb82d9094e614338f577942628f90f.svg",
     "static/media/primena-dark.svg": "/portalmaster/static/media/primena-dark.ab80aaedd84b5566e17d9c0d857ce5c3.svg",
@@ -36,15 +39,14 @@
     "static/media/iskustvo-dark.svg": "/portalmaster/static/media/iskustvo-dark.cdc6ff6dce9384eefc17c0dff6647f46.svg",
     "static/media/iskustvo.svg": "/portalmaster/static/media/iskustvo.e92d6740b15fe92467bc865561dc70ec.svg",
     "static/media/linkedin.svg": "/portalmaster/static/media/linkedin.14bfdb7776f89093979ed428c66b33b4.svg",
-    "index.html": "/portalmaster/index.html",
     "static/media/administracija-dark.svg": "/portalmaster/static/media/administracija-dark.1215bfa39315d4d73407d2ecb0e3bb2d.svg",
     "static/media/administracija.svg": "/portalmaster/static/media/administracija.6f3c31b049e580545021fe246a06d524.svg",
     "main.92350cab.css.map": "/portalmaster/static/css/main.92350cab.css.map",
-    "main.1f47d240.js.map": "/portalmaster/static/js/main.1f47d240.js.map",
+    "main.cef0fc6b.js.map": "/portalmaster/static/js/main.cef0fc6b.js.map",
     "453.5febe422.chunk.js.map": "/portalmaster/static/js/453.5febe422.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92350cab.css",
-    "static/js/main.1f47d240.js"
+    "static/js/main.cef0fc6b.js"
   ]
 }
