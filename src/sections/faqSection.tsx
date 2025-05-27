@@ -19,7 +19,7 @@ export default function FaqSection() {
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
-                                <h6 className="text-lg lg:text-2xl font-semibold text-black dark:text-white">{t("Шта је Портал Мастер и како функционише?", "faq_q1")}</h6>
+                                <h6 className="text-lg lg:text-2xl font-semibold text-black dark:text-white pr-2">{t("Шта је Портал Мастер и како функционише?", "faq_q1")}</h6>
                                 <FontAwesomeIcon icon={faPlusCircle} className="text-primary text-2xl block group-data-[open]:hidden" />
                                 <FontAwesomeIcon icon={faMinusCircle} className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block" />
                             </DisclosureButton>
@@ -34,7 +34,7 @@ export default function FaqSection() {
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
-                                <h6 className="text-lg lg:text-2xl font-semibold text-black dark:text-white">{t("Да ли је потребно техничко предзнање за коришћење платформе?", "faq_q2")}</h6>
+                                <h6 className="text-lg pr-2 lg:text-2xl font-semibold text-black dark:text-white">{t("Да ли је потребно техничко предзнање за коришћење платформе?", "faq_q2")}</h6>
                                 <FontAwesomeIcon icon={faPlusCircle} className="text-primary text-2xl block group-data-[open]:hidden" />
                                 <FontAwesomeIcon icon={faMinusCircle} className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block" />
                             </DisclosureButton>
@@ -49,7 +49,7 @@ export default function FaqSection() {
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
-                                <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">{t("Може ли се платформа прилагодити нашим специфичним потребама?", "faq_q3")}</h6>
+                                <h6 className="text-lg pr-2 lg:text-2xl font-semibold text-black dark:text-white">{t("Може ли се платформа прилагодити нашим специфичним потребама?", "faq_q3")}</h6>
                                 <FontAwesomeIcon icon={faPlusCircle} className="text-primary text-2xl block group-data-[open]:hidden" />
                                 <FontAwesomeIcon icon={faMinusCircle} className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block" />
                             </DisclosureButton>
@@ -64,7 +64,7 @@ export default function FaqSection() {
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
-                                <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">{t("Да ли је могућа интеграција са постојећим системима?", "faq_q4")}</h6>
+                                <h6 className="text-lg pr-2 lg:text-2xl font-semibold text-black dark:text-white">{t("Да ли је могућа интеграција са постојећим системима?", "faq_q4")}</h6>
                                 <FontAwesomeIcon icon={faPlusCircle} className="text-primary text-2xl block group-data-[open]:hidden" />
                                 <FontAwesomeIcon icon={faMinusCircle} className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block" />
                             </DisclosureButton>
@@ -79,7 +79,7 @@ export default function FaqSection() {
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
-                                <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">{t("Како се гарантује сигурност података на платформи?", "faq_q5")}</h6>
+                                <h6 className="text-lg pr-2 lg:text-2xl font-semibold text-black dark:text-white">{t("Како се гарантује сигурност података на платформи?", "faq_q5")}</h6>
                                 <FontAwesomeIcon icon={faPlusCircle} className="text-primary text-2xl block group-data-[open]:hidden" />
                                 <FontAwesomeIcon icon={faMinusCircle} className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block" />
                             </DisclosureButton>
@@ -94,7 +94,7 @@ export default function FaqSection() {
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
-                                <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">{t("Која врста подршке је доступна корисницима?", "faq_q6")}</h6>
+                                <h6 className="text-lg pr-2 lg:text-2xl font-semibold text-black dark:text-white">{t("Која врста подршке је доступна корисницима?", "faq_q6")}</h6>
                                 <FontAwesomeIcon icon={faPlusCircle} className="text-primary text-2xl block group-data-[open]:hidden" />
                                 <FontAwesomeIcon icon={faMinusCircle} className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block" />
                             </DisclosureButton>
@@ -109,7 +109,7 @@ export default function FaqSection() {
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
-                                <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">{t("Да ли су хостинг и домени део решења?", "faq_q7")}</h6>
+                                <h6 className="text-lg pr-2 lg:text-2xl font-semibold text-black dark:text-white">{t("Да ли су хостинг и домени део решења?", "faq_q7")}</h6>
                                 <FontAwesomeIcon icon={faPlusCircle} className="text-primary text-2xl block group-data-[open]:hidden" />
                                 <FontAwesomeIcon icon={faMinusCircle} className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block" />
                             </DisclosureButton>
@@ -125,7 +125,7 @@ export default function FaqSection() {
                             <DisclosureButton
                                 as="div"
                                 className="w-full flex justify-between cursor-pointer group pb-2">
-                                <h6 className="text-xl lg:text-2xl font-semibold text-black dark:text-white">{t("Како могу да добијем додатне информације о платформи?", "faq_q8")}</h6>
+                                <h6 className="text-lg pr-2 lg:text-2xl font-semibold text-black dark:text-white">{t("Како могу да добијем додатне информације о платформи?", "faq_q8")}</h6>
                                 <FontAwesomeIcon icon={faPlusCircle} className="text-primary text-2xl block group-data-[open]:hidden" />
                                 <FontAwesomeIcon icon={faMinusCircle} className="text-secondary dark:text-white text-2xl hidden group-data-[open]:block" />
                             </DisclosureButton>

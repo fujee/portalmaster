@@ -32,8 +32,8 @@ export default function Footer() {
                     </div>
                     <div className="mt-10 lg:mt-0">
                         <a href="mailto:contact@portalmastersolutions.com"
-                            className="flex justify-between items-center lg:block bg-primary text-white rounded-md py-2 px-6 text-base border-2 border-primary hover:bg-primary/30 max-w-sm mx-auto lg:mx-none"
-                        >{t("Контактирајте нас", "nav_contact")}<FontAwesomeIcon icon={faArrowRight} className="ms-auto lg:ms-2" /></a>
+                            className="text-center lg:text-start block bg-primary text-white rounded-md py-2 px-6 text-base border-2 border-primary hover:bg-primary/30 max-w-sm mx-auto lg:mx-none"
+                        >{t("Контактирајте нас", "nav_contact")}<FontAwesomeIcon icon={faArrowRight} className="ms-2" /></a>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@ export default function Footer() {
                 <div className="w-full grid grid-cols-1 lg:grid-cols-3 items-center">
                     <div className="mb-10 lg:mb-0">
                         <img src={lang === 'cir' ? logoCyr : logo} alt={t('Портал Мастер Лого')} className="hidden lg:block mx-0 w-full max-w-96" />
-                        <img src={lang === 'cir' ? logoMobileCyr : logoMobile} alt={t('Портал Мастер Лого')} className="block lg:hidden mx-auto w-full max-w-96" />
+                        <img src={lang === 'cir' ? logoMobileCyr : logoMobile} alt={t('Портал Мастер Лого')} className="block lg:hidden mx-auto w-full max-w-56" />
                         <p className="text-white/80 mt-7 text-center lg:text-start">{t('Портал на клик од вас – лако, безбедно и ефикасно.', "footer_phrase")}</p>
                     </div>
                     <div className="text-center mb-10 lg:mb-0">

@@ -40,7 +40,7 @@ module.exports = {
         custom_bg6_dark: `url(/src/media/functions/fifth/pattern_dark.png)`,
       },
       backgroundPosition: {
-        custom_bg1: "-142px -143.546px",
+        custom_bg1: "-30px -143.546px",
         custom_bg1_dark: "-142px -143.546px",
         custom_bg3: "0px 0px",
         custom_bg3_dark: "0px 0px",
