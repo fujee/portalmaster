@@ -3,6 +3,8 @@ import { useLang } from "../contexts/langContext"
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 import logo from "../media/logo_portalmaster_light.png"
 import logoCyr from "../media/logo_portalmaster_light_cir.png"
+import logoMobile from "../media/logo_footer.png"
+import logoMobileCyr from "../media/logo_footer_cir.png"
 import routes from "../utilities/routes"
 import { Link } from "react-scroll"
 
@@ -38,7 +40,8 @@ export default function Footer() {
             <div className="border-t-2 border-white/10 pt-20 mt-20">
                 <div className="w-full grid grid-cols-1 lg:grid-cols-3 items-center">
                     <div className="mb-10 lg:mb-0">
-                        <img src={lang === 'cir' ? logoCyr : logo} alt={t('Портал Мастер Лого')} className="mx-auto lg:mx-0 w-full max-w-96" />
+                        <img src={lang === 'cir' ? logoCyr : logo} alt={t('Портал Мастер Лого')} className="hidden lg:block mx-0 w-full max-w-96" />
+                        <img src={lang === 'cir' ? logoMobileCyr : logoMobile} alt={t('Портал Мастер Лого')} className="block lg:hidden mx-auto w-full max-w-96" />
                         <p className="text-white/80 mt-7 text-center lg:text-start">{t('Портал на клик од вас – лако, безбедно и ефикасно.', "footer_phrase")}</p>
                     </div>
                     <div className="text-center mb-10 lg:mb-0">
